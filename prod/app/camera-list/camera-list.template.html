@@ -3,6 +3,11 @@
 
 <ul>
     <li ng-repeat="camera in $ctrl.cameras | filter:$ctrl.query">
-        <span>{{camera.name}}</span>
+        <p>{{camera.id}}</p>
+        <a href="#/cameras/{{camera.id}}">
+            <img ng-src="{{camera.image}}" alt="{{camera.name}}" />
+        </a>
+        <a href="#/cameras/{{camera.id}}">{{camera.name}}</a>
+
     </li>
 </ul>
