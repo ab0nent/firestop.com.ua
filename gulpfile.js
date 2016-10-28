@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const gulp = require('gulp');
 const sass = require('gulp-sass');
@@ -10,7 +10,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const mincss = require("gulp-minify-css");
 const uglify = require("gulp-uglify");
 
-
+//in command line "set NODE_ENV=prod" or "set NODE_ENV=dev"
 const  isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'dev';
 
 gulp.task('browserSync', function() {
@@ -34,29 +34,29 @@ gulp.task('sass', function () {
 gulp.task('html', function () {
     return gulp.src('dev/*.html')
         .pipe(gulp.dest('prod'))
-})
+});
 
 gulp.task('json', function () {
     return gulp.src('dev/json/**/*.*')
         .pipe(gulp.dest('prod/json'))
-})
+});
 
 gulp.task('js', function () {
     return gulp.src('dev/js/**/*.*')
         .pipe(gulpIf(!isDevelopment,uglify()))
         .pipe(gulp.dest('prod/js'))
-})
+});
 
 gulp.task('img', function () {
     return gulp.src('dev/img/**/*.*')
         .pipe(gulp.dest('prod/img'))
-})
+});
 
 gulp.task('css', function () {
     return gulp.src('dev/css/**/*.*')
         .pipe(gulpIf(!isDevelopment,mincss()))
         .pipe(gulp.dest('prod/css'))
-})
+});
 
 gulp.task('clean', function () {
     return del('prod');
