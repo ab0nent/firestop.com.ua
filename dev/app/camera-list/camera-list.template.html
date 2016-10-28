@@ -1,5 +1,6 @@
 
 <input ng-model="$ctrl.query" />
+
 <ul>
     <li ng-repeat="camera in cameras | filter:$ctrl.query">
         <span>{{camera.name}}</span>
