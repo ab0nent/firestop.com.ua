@@ -14,6 +14,7 @@
     "del": "^2.2.2",
     "gulp": "gulpjs/gulp#4.0",
     "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
     "gulp-if": "^2.0.1",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^2.3.2",

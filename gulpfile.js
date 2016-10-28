@@ -9,6 +9,8 @@ const del = require('del');
 const autoprefixer = require('gulp-autoprefixer');
 const mincss = require("gulp-minify-css");
 const uglify = require("gulp-uglify");
+const concat = require("gulp-concat");
+
 
 //in command line "set NODE_ENV=prod" or "set NODE_ENV=dev"
 const  isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'dev';
@@ -42,7 +44,8 @@ gulp.task('json', function () {
 });
 
 gulp.task('js', function () {
-    return gulp.src('dev/js/**/*.*', {since: gulp.lastRun('js')})
+    return gulp.src('dev/js/**/*.js')
+        .pipe(gulpIf(['_*.js'], concat('main.min.js')))
         .pipe(gulpIf(!isDevelopment,uglify()))
         .pipe(gulp.dest('prod/js'))
 });
