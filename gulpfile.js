@@ -32,28 +32,28 @@ gulp.task('sass', function () {
 });
 
 gulp.task('html', function () {
-    return gulp.src('dev/*.html')
+    return gulp.src('dev/*.html', {since: gulp.lastRun('html')})
         .pipe(gulp.dest('prod'))
 });
 
 gulp.task('json', function () {
-    return gulp.src('dev/json/**/*.*')
+    return gulp.src('dev/json/**/*.*', {since: gulp.lastRun('json')})
         .pipe(gulp.dest('prod/json'))
 });
 
 gulp.task('js', function () {
-    return gulp.src('dev/js/**/*.*')
+    return gulp.src('dev/js/**/*.*', {since: gulp.lastRun('js')})
         .pipe(gulpIf(!isDevelopment,uglify()))
         .pipe(gulp.dest('prod/js'))
 });
 
 gulp.task('img', function () {
-    return gulp.src('dev/img/**/*.*')
+    return gulp.src('dev/img/**/*.*', {since: gulp.lastRun('img')})
         .pipe(gulp.dest('prod/img'))
 });
 
 gulp.task('css', function () {
-    return gulp.src('dev/css/**/*.*')
+    return gulp.src('dev/css/**/*.*', {since: gulp.lastRun('css')})
         .pipe(gulpIf(!isDevelopment,mincss()))
         .pipe(gulp.dest('prod/css'))
 });
