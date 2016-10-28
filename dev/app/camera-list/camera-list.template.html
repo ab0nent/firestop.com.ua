@@ -1,8 +1,8 @@
 
-<input ng-model="$ctrl.query" />
+<span>Search: </span><input ng-model="$ctrl.query" />
 
 <ul>
-    <li ng-repeat="camera in cameras | filter:$ctrl.query">
+    <li ng-repeat="camera in $ctrl.cameras | filter:$ctrl.query">
         <span>{{camera.name}}</span>
     </li>
 </ul>
