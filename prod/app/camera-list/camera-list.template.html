@@ -1,13 +1,27 @@
+<p>
+    Search:
+    <input ng-model="$ctrl.query">
+</p>
 
-<span>Search: </span><input ng-model="$ctrl.query" />
-
+<p>
+    Sort by:
+    <select ng-model="$ctrl.orderProp">
+        <option value="name">Name</option>
+        <option value="id">ID</option>
+        <option value="Manufacturer">Manufacturer</option>
+    </select>
+</p>
+<br>
 <ul>
-    <li ng-repeat="camera in $ctrl.cameras | filter:$ctrl.query">
-        <p>{{camera.id}}</p>
-        <a href="#/cameras/{{camera.id}}">
+    <li ng-repeat="camera in $ctrl.cameras | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+        <a href="#!/cameras/{{camera.id}}">
             <img ng-src="{{camera.image}}" alt="{{camera.name}}" />
         </a>
-        <a href="#/cameras/{{camera.id}}">{{camera.name}}</a>
-
+        <br>
+        <span>ID: {{camera.id}}</span>
+        <br>
+        <span>Name: {{camera.name}}</span>
+        <br>
+        <span>Manufacturer: {{camera.Manufacturer}}</span>
     </li>
 </ul>

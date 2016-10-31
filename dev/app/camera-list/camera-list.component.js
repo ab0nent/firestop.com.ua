@@ -7,9 +7,11 @@ angular.
     templateUrl: 'app/camera-list/camera-list.template.html',
     controller: function PhoneListController($http) {
         var self = this;
-
-        $http.get('json/cameras/cameras.json').then(function(response) {
+        this.orderProp = 'id';
+        $http.get('json/cameras/cameras.json')
+            .then(function(response) {
             self.cameras = response.data;
         });
+
     }
 });
