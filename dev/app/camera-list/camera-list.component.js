@@ -5,13 +5,10 @@ angular.
     module('cameraList').
     component( 'cameraList', {
     templateUrl: 'app/camera-list/camera-list.template.html',
-    controller: function PhoneListController($http) {
-        var self = this;
-        this.orderProp = 'id';
-        $http.get('json/cameras/cameras.json')
-            .then(function(response) {
-            self.cameras = response.data;
-        });
-
-    }
+    controller: ['Camera',
+        function CameraListController(Camera) {
+            this.cameras = Camera.query();
+            this.orderProp = 'id';
+        }
+    ]
 });
