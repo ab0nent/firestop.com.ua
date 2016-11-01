@@ -1,6 +1,13 @@
 <p>
     Search:
-    <input ng-model="$ctrl.query">
+    <input ng-model="search.$"><br>
+    Search by name:
+    <input ng-model="search.name"><br>
+    Search by id:
+    <input ng-model="search.id"><br>
+    Search by manufacturer:
+    <input ng-model="search.Manufacturer"><br>
+
 </p>
 
 <p>
@@ -11,9 +18,21 @@
         <option value="Manufacturer">Manufacturer</option>
     </select>
 </p>
+
+<p>
+    Filter by manufacturer:
+    <br>
+
+<div ng-repeat="Manufacturer in $ctrl.getManufacturer()">
+    <label>
+        <input type="checkbox" ng-model="$ctrl.filter[Manufacturer]" />
+        {{ Manufacturer }}
+    </label>
+</div>
+</p>
 <br>
 <ul>
-    <li ng-repeat="camera in $ctrl.cameras | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+    <li ng-repeat="camera in ($ctrl.cameras | filter: $ctrl.filterByManufacturer) | filter:search:strict |  orderBy:$ctrl.orderProp">
         <a href="#!/cameras/{{camera.id}}">
             <img ng-src="{{camera.image}}" alt="{{camera.name}}" />
         </a>
