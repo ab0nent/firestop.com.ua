@@ -11,6 +11,9 @@ config(['$locationProvider', '$routeProvider',
         when('/cameras', {
             template: '<camera-list></camera-list>'
         }).
+        when('/dvrs', {
+            template: '<dvr-list></dvr-list>'
+        }).
         when('/main', {
             templateUrl: 'app/static-pages/main.template.html'
         }).

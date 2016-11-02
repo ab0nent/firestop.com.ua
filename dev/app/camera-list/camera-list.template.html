@@ -6,7 +6,7 @@
     Search by id:
     <input ng-model="search.id"><br>
     Search by manufacturer:
-    <input ng-model="search.Manufacturer"><br>
+    <input ng-model="search.manufacturer"><br>
 
 </p>
 
@@ -15,7 +15,7 @@
     <select ng-model="$ctrl.orderProp">
         <option value="name">Name</option>
         <option value="id">ID</option>
-        <option value="Manufacturer">Manufacturer</option>
+        <option value="manufacturer">Manufacturer</option>
     </select>
 </p>
 
@@ -23,10 +23,10 @@
     Filter by manufacturer:
     <br>
 
-<div ng-repeat="Manufacturer in $ctrl.getManufacturer()">
+<div ng-repeat="manufacturer in $ctrl.getManufacturer()">
     <label>
-        <input type="checkbox" ng-model="$ctrl.filter[Manufacturer]" />
-        {{ Manufacturer }}
+        <input type="checkbox" ng-model="$ctrl.filter[manufacturer]" />
+        {{ manufacturer }}
     </label>
 </div>
 </p>
@@ -41,6 +41,6 @@
         <br>
         <span>Name: {{camera.name}}</span>
         <br>
-        <span>Manufacturer: {{camera.Manufacturer}}</span>
+        <span>Manufacturer: {{camera.manufacturer}}</span>
     </li>
 </ul>

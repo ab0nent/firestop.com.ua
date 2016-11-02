@@ -16,12 +16,12 @@ angular.
             self.getManufacturer = getManufacturer;
 
             function filterByManufacturer(camera) {
-                return self.filter[camera.Manufacturer] || noFilter(self.filter);
+                return self.filter[camera.manufacturer] || noFilter(self.filter);
             }
 
             function getManufacturer() {
                 return (self.cameras || []).
-                map(function (camera) { return camera.Manufacturer; }).
+                map(function (camera) { return camera.manufacturer; }).
                 filter(function (cat, idx, arr) { return arr.indexOf(cat) === idx; });
             }
 
