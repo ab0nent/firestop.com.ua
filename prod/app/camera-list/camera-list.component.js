@@ -24,6 +24,7 @@ angular.
                 map(function (camera) { return camera.Manufacturer; }).
                 filter(function (cat, idx, arr) { return arr.indexOf(cat) === idx; });
             }
+
             function noFilter(filterObj) {
                 return Object.
                 keys(filterObj).
