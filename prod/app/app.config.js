@@ -11,6 +11,12 @@ config(['$locationProvider', '$routeProvider',
         when('/cameras', {
             template: '<camera-list></camera-list>'
         }).
+        when('/about', {
+            templateUrl: 'app/static-pages/about.template.html',
+        }).
+        when('/contacts', {
+            templateUrl: 'app/static-pages/contacts.template.html',
+        }).
         when('/cameras/:id', {
             template: '<camera-detail></camera-detail>'
         }).
