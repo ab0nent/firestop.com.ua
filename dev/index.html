@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app = "camerasApp">
+<html lang="en" ng-app = "productsApp">
 
 <head>
     <meta charset="UTF-8">
@@ -11,26 +11,33 @@
     <script src="app/app.module.js"></script>
     <script src="app/app.config.js"></script>
     <script src="app/core/core.module.js"></script>
-    <script src="app/core/camera/camera.module.js"></script>
-    <script src="app/core/camera/camera.service.js"></script>
-    <script src="app/camera-list/camera-list.module.js"></script>
-    <script src="app/camera-list/camera-list.component.js"></script>
-    <script src="app/camera-detail/camera-detail.module.js"></script>
-    <script src="app/camera-detail/camera-detail.component.js"></script>
-    <script src="app/dvr-list/dvr-list.module.js"></script>
-    <script src="app/dvr-list/dvr-list.component.js"></script>
+    <script src="app/core/product/product.module.js"></script>
+    <script src="app/core/product/product.service.js"></script>
+    <script src="app/product-list/product-list.module.js"></script>
+    <script src="app/product-list/product-list.component.js"></script>
+    <script src="app/product-detail/product-detail.module.js"></script>
+    <script src="app/product-detail/product-detail.component.js"></script>
 </head>
 
 <body>
 <p>FireStop</p>
+<hr>
 <ul>
     <li><a href="#!/main">main</a></li>
-    <li><a href="#!/cameras">cameras</a></li>
-    <li><a href="#!/dvrs">dvr</a></li>
+    <li><a href="#!/products/cameras">cameras</a></li>
+    <li><a href="#!/products/dvrs">dvrs</a></li>
+    <li><a href="#!/products/additionals">additionals</a></li>
+    <li><a href="#!/products/akb">akb</a></li>
+    <li><a href="#!/products/cabels">cabels</a></li>
+    <li><a href="#!/products/controls">controls</a></li>
+    <li><a href="#!/products/domofon">domofon</a></li>
+    <li><a href="#!/products/network">network</a></li>
+    <li><a href="#!/products/security">ohrana</a></li>
+
     <li><a href="#!/contacts">contacts</a></li>
     <li><a href="#!/about">about</a></li>
 </ul>
-
+<hr>
 <div ng-view></div>
 
 <script src="js/main.min.js"></script>

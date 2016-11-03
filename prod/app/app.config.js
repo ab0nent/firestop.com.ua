@@ -2,18 +2,12 @@
  * Created by w7 on 28.10.2016.
  */
 angular.
-module('camerasApp').
+module('productsApp').
 config(['$locationProvider', '$routeProvider',
     function config($locationProvider, $routeProvider) {
         $locationProvider.hashPrefix('!');
 
         $routeProvider.
-        when('/cameras', {
-            template: '<camera-list></camera-list>'
-        }).
-        when('/dvrs', {
-            template: '<dvr-list></dvr-list>'
-        }).
         when('/main', {
             templateUrl: 'app/static-pages/main.template.html'
         }).
@@ -23,8 +17,11 @@ config(['$locationProvider', '$routeProvider',
         when('/contacts', {
             templateUrl: 'app/static-pages/contacts.template.html'
         }).
-        when('/cameras/:id', {
-            template: '<camera-detail></camera-detail>'
+        when('/products/:productType', {
+            template: '<product-list></product-list>'
+        }).
+        when('/products/:productType/:productID', {
+            template: '<product-detail></product-detail>'
         }).
         otherwise('/main');
     }
