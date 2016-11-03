@@ -10,11 +10,21 @@ angular.
             this.productType = $routeParams.productType
             this.products = Product.query({productType: this.productType, productID: 'list'});
             this.orderProp = 'id';
+            this.numLimit = 10;
 
             var self = this;
             self.filter = {};
+            self.showMore = showMore;
             self.filterByManufacturer = filterByManufacturer;
             self.getManufacturer = getManufacturer;
+            
+            function showMore() {
+                    self.numLimit += 10;
+                    if(self.numLimit > self.products.length){
+                        self.numLimit = self.products.length;
+                    }
+            }
+            
             function filterByManufacturer(product) {
 
                 return self.filter[product.manufacturer] || noFilter(self.filter);

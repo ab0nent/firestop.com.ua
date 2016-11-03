@@ -3,10 +3,6 @@
 <p>ID: {{$ctrl.product.id}}</p>
 <p>Manufacturer: {{$ctrl.product.manufacturer}}</p>
 <table>
-    <tr>
-        <th>Property</th>
-        <th>Value</th>
-    </tr>
     <tr ng-repeat="detail in $ctrl.product.productDetails">
         <td>{{detail.Name}}</td>
         <td>{{detail.Value}}</td>

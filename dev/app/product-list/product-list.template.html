@@ -1,3 +1,8 @@
+<label>
+    Items on page (available {{$ctrl.products.length}}):
+    <input type="number" step="1" ng-model="$ctrl.numLimit" ng-value="20" min="1" max="{{$ctrl.products.length}}">
+</label>
+
 <p>
     Search:
     <input ng-model="search.$"><br>
@@ -23,16 +28,17 @@
     Filter by manufacturer:
     <br>
 
-<div ng-repeat="manufacturer in $ctrl.getManufacturer()">
-    <label>
-        <input type="checkbox" ng-model="$ctrl.filter[manufacturer]" />
-        {{ manufacturer }}
-    </label>
-</div>
+    <div ng-repeat="manufacturer in $ctrl.getManufacturer()">
+        <label>
+            <input type="checkbox" ng-model="$ctrl.filter[manufacturer]" />
+            {{ manufacturer }}
+        </label>
+    </div>
 </p>
 <br>
 <ul>
-    <li ng-repeat="product in ($ctrl.products | filter: $ctrl.filterByManufacturer) | filter:search:strict |  orderBy:$ctrl.orderProp">
+    <li ng-repeat="product in ($ctrl.products | filter: $ctrl.filterByManufacturer) | filter:search:strict
+            |  orderBy:$ctrl.orderProp  | limitTo:$ctrl.numLimit">
         <a href="#!/products/{{$ctrl.productType}}/{{product.id}}">
             <img ng-src="{{product.image}}" alt="{{product.name}}" />
         </a>
@@ -44,3 +50,6 @@
         <span>Manufacturer: {{product.manufacturer}}</span>
     </li>
 </ul>
+
+<hr>
+<input type="button" value="SHOW MORE" ng-click="$ctrl.showMore()"/>
