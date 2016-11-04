@@ -26,7 +26,6 @@ angular.
             }
             
             function filterByManufacturer(product) {
-
                 return self.filter[product.manufacturer] || noFilter(self.filter);
             }
 
