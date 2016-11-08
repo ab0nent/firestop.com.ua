@@ -9,7 +9,7 @@ angular.
         function ProductListController($routeParams, Product) {
             this.productType = $routeParams.productType
             this.products = Product.query({productType: this.productType, productID: 'list'});
-            this.orderProp = 'id';
+            this.orderProp = 'manufacturer';
             this.numLimit = 10;
 
             var self = this;

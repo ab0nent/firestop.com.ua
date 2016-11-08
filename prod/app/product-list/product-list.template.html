@@ -1,38 +1,38 @@
 <md-input-container>
-    <label>Search</label>
+    <label>Поиск</label>
     <input ng-model="search.$">
 </md-input-container>
 
 <md-input-container>
-    <label>Search by name</label>
+    <label>Поиск по имени</label>
     <input ng-model="search.name">
 </md-input-container>
 
 <md-input-container>
-    <label>Search by id</label>
+    <label>Поиск по ID</label>
     <input ng-model="search.id">
 </md-input-container>
 
 <md-input-container>
-    <label>Search by manufacturer</label>
+    <label>Поиск по производителю</label>
     <input ng-model="search.manufacturer">
 </md-input-container>
 <br>
 
 <md-input-container>
-    <label>Sort by</label>
+    <label>Сортировать по</label>
     <md-select ng-model="$ctrl.orderProp">
-        <md-option value="name">Name</md-option>
+        <md-option value="name">имени</md-option>
         <md-option value="id">ID</md-option>
-        <md-option value="manufacturer">Manufacturer</md-option>
+        <md-option value="manufacturer">производителю</md-option>
     </md-select>
 </md-input-container>
 
 
 <md-input-container>
-    <label>Filter by manufacturer</label>
+    <label>Фильтрация по производителю</label>
     <md-select ng-model="$ctrl.filter" multiple>
-        <md-optgroup label="manufacturer">
+        <md-optgroup label="Производители">
             <md-option ng-value="manufacturer" ng-repeat="manufacturer in $ctrl.getManufacturer()" selected="">
                 {{manufacturer}}
             </md-option>
@@ -42,7 +42,7 @@
 
 <md-input-container class="md-block">
     <label>
-        Items on page (available {{$ctrl.products.length}}):</label>
+        Оборудования на странице (доступно {{$ctrl.products.length}}):</label>
     <input type="number" step="1" ng-model="$ctrl.numLimit" min="1" max="{{$ctrl.products.length}}">
 </md-input-container>
 
@@ -55,9 +55,9 @@
         <br>
         <span>ID: {{product.id}}</span>
         <br>
-        <span>Name: {{product.name}}</span>
+        <span>Название: {{product.name}}</span>
         <br>
-        <span>Manufacturer: {{product.manufacturer}}</span>
+        <span>Производитель: {{product.manufacturer}}</span>
     </li>
 </ul>
 
