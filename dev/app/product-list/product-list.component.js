@@ -13,7 +13,7 @@ angular.
             this.numLimit = 10;
 
             var self = this;
-            self.filter = {};
+            self.filter = [];
             self.showMore = showMore;
             self.filterByManufacturer = filterByManufacturer;
             self.getManufacturer = getManufacturer;
@@ -26,7 +26,7 @@ angular.
             }
             
             function filterByManufacturer(product) {
-                return self.filter[product.manufacturer] || noFilter(self.filter);
+                return self.filter.indexOf(product.manufacturer) >= 0;
             }
 
             function getManufacturer() {
@@ -35,11 +35,6 @@ angular.
                 filter(function (cat, idx, arr) { return arr.indexOf(cat) === idx; });
             }
 
-            function noFilter(filterObj) {
-                return Object.
-                keys(filterObj).
-                every(function (key) { return !filterObj[key]; });
-            }
         }
     ]
 });

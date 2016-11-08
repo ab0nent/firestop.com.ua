@@ -1,44 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" ng-app = "productsApp">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <title>FireStop</title>
+
+    <!--Stylesheets-->
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/angular.min.js"></script>
-    <script src="js/angular-resource.min.js"></script>
-    <script src="js/angular-route.min.js"></script>
-    <script src="app/app.module.js"></script>
-    <script src="app/app.config.js"></script>
-    <script src="app/core/core.module.js"></script>
-    <script src="app/core/product/product.module.js"></script>
-    <script src="app/core/product/product.service.js"></script>
-    <script src="app/product-list/product-list.module.js"></script>
-    <script src="app/product-list/product-list.component.js"></script>
-    <script src="app/product-detail/product-detail.module.js"></script>
-    <script src="app/product-detail/product-detail.component.js"></script>
+    <link rel="stylesheet" href="css/angular-material.min.css">
+
 </head>
 
-<body>
-<p>FireStop</p>
-<hr>
-<ul>
-    <li><a href="#!/main">main</a></li>
-    <li><a href="#!/products/cameras">cameras</a></li>
-    <li><a href="#!/products/dvrs">dvrs</a></li>
-    <li><a href="#!/products/additionals">additionals</a></li>
-    <li><a href="#!/products/akb">akb</a></li>
-    <li><a href="#!/products/cabels">cabels</a></li>
-    <li><a href="#!/products/controls">controls</a></li>
-    <li><a href="#!/products/domofon">domofon</a></li>
-    <li><a href="#!/products/network">network</a></li>
-    <li><a href="#!/products/security">ohrana</a></li>
-    <li><a href="#!/contacts">contacts</a></li>
-    <li><a href="#!/about">about</a></li>
-</ul>
-<hr>
+<body ng-app = "productsApp">
+
+<md-content class="md-padding">
+    <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+        <md-nav-item md-nav-href="#!/main" name="main">main</md-nav-item>
+        <md-nav-item md-nav-href="#!/products" name="products">products</md-nav-item>
+        <md-nav-item md-nav-href="#!/contacts" name="contacts">contacts</md-nav-item>
+        <md-nav-item md-nav-href="#!/about" name="about">about</md-nav-item>
+    </md-nav-bar>
+</md-content>
+
 <div ng-view></div>
 
+<!--Angular and Libraries-->
+<script src="js/angular.min.js"></script>
+<script src="js/angular-resource.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="js/angular-aria.min.js"></script>
+<script src="js/angular-material.min.js"></script>
+<script src="js/angular-messages.min.js"></script>
+
+<!--Application scripts-->
+<script src="app/app.module.js"></script>
+<script src="app/app.config.js"></script>
+<script src="app/core/core.module.js"></script>
+<script src="app/core/product/product.module.js"></script>
+<script src="app/core/product/product.service.js"></script>
+<script src="app/product-list/product-list.module.js"></script>
+<script src="app/product-list/product-list.component.js"></script>
+<script src="app/product-detail/product-detail.module.js"></script>
+<script src="app/product-detail/product-detail.component.js"></script>
+
+<!--Custom script-->
 <script src="js/main.min.js"></script>
 
 </body>

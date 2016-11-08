@@ -17,6 +17,9 @@ config(['$locationProvider', '$routeProvider',
         when('/contacts', {
             templateUrl: 'app/static-pages/contacts.template.html'
         }).
+        when('/products', {
+            templateUrl: 'app/static-pages/products.template.html'
+        }).
         when('/products/:productType', {
             template: '<product-list></product-list>'
         }).

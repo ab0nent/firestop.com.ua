@@ -11,6 +11,7 @@ const mincss = require("gulp-minify-css");
 const uglify = require("gulp-uglify");
 const concat = require("gulp-concat");
 const babel = require("gulp-babel");
+const jsonminify = require('gulp-jsonminify');
 
 //in command line "set NODE_ENV=prod" or "set NODE_ENV=dev"
 const  isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'dev';
@@ -38,8 +39,14 @@ gulp.task('html', function () {
         .pipe(gulp.dest('prod'))
 });
 
+gulp.task('config', function () {
+    return gulp.src('dev/*.config', {since: gulp.lastRun('config')})
+        .pipe(gulp.dest('prod'))
+});
+
 gulp.task('json', function () {
     return gulp.src('dev/json/**/*.*', {since: gulp.lastRun('json')})
+        .pipe(gulpIf(!isDevelopment,jsonminify()))
         .pipe(gulp.dest('prod/json'))
 });
 
@@ -76,6 +83,7 @@ gulp.task('clean', function () {
 gulp.task('watch', function () {
     gulp.watch('dev/sass/**/*.scss', gulp.series('sass'));
     gulp.watch('dev/*.html', gulp.series('html'));
+    gulp.watch('dev/*.config', gulp.series('config'));
     gulp.watch('dev/json/**/*.json', gulp.series('json'));
     gulp.watch('dev/img/**/*.*', gulp.series('img'));
     gulp.watch('dev/js/**/*.*', gulp.series('js'));
@@ -84,7 +92,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('build', gulp.series('clean',
-    gulp.parallel('sass', 'html', 'json', 'img', 'js', 'app'),
+    gulp.parallel('sass', 'html', 'json', 'img', 'js', 'app', 'config'),
     gulp.parallel('css', 'browserSync', 'watch')));
 
 gulp.task('default', gulp.series('build'));
