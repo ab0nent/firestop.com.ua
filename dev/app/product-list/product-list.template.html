@@ -1,64 +1,72 @@
-<md-input-container>
-    <label>Поиск</label>
-    <input ng-model="search.$">
-</md-input-container>
+<dsiv layout="row">
+    <div flex="33">
+                      <md-input-container>
+                            <label>Поиск</label>
+                            <input ng-model="search.$">
+                        </md-input-container>
 
-<md-input-container>
-    <label>Поиск по имени</label>
-    <input ng-model="search.name">
-</md-input-container>
+                        <md-input-container>
+                            <label>Поиск по имени</label>
+                            <input ng-model="search.name">
+                        </md-input-container>
+                        <br>
+                        <md-input-container>
+                            <label>Поиск по ID</label>
+                            <input ng-model="search.id">
+                        </md-input-container>
 
-<md-input-container>
-    <label>Поиск по ID</label>
-    <input ng-model="search.id">
-</md-input-container>
+                        <md-input-container>
+                            <label>Поиск по производителю</label>
+                            <input ng-model="search.manufacturer">
+                        </md-input-container>
+                        <br>
 
-<md-input-container>
-    <label>Поиск по производителю</label>
-    <input ng-model="search.manufacturer">
-</md-input-container>
-<br>
+                        <md-input-container>
+                            <label>Сортировать по</label>
+                            <md-select ng-model="$ctrl.orderProp">
+                                <md-option value="name">имени</md-option>
+                                <md-option value="id">ID</md-option>
+                                <md-option value="manufacturer">производителю</md-option>
+                            </md-select>
+                        </md-input-container>
+                        <br>
 
-<md-input-container>
-    <label>Сортировать по</label>
-    <md-select ng-model="$ctrl.orderProp">
-        <md-option value="name">имени</md-option>
-        <md-option value="id">ID</md-option>
-        <md-option value="manufacturer">производителю</md-option>
-    </md-select>
-</md-input-container>
+                        <md-input-container>
+                            <label>Производители</label>
+                            <md-select ng-model="$ctrl.filter" multiple>
+                                <md-optgroup label="Производители">
+                                    <md-option ng-value="manufacturer" ng-repeat="manufacturer in $ctrl.getManufacturer()" selected="">
+                                        {{manufacturer}}
+                                    </md-option>
+                                </md-optgroup>
+                            </md-select>
+                        </md-input-container>
+
+                        <md-input-container class="md-block">
+                            <label>
+                                Оборудования на странице (доступно {{$ctrl.products.length}}):</label>
+                            <input type="number" step="1" ng-model="$ctrl.numLimit" min="1" max="{{$ctrl.products.length}}">
+                        </md-input-container>
+    </div>
+
+    <md-content flex="66" class="productList">
+        <md-list >
+            <md-list-item class="md-3-line" ng-repeat="product in ($ctrl.products | filter: $ctrl.filterByManufacturer) | filter:search:strict
+            |  orderBy:$ctrl.orderProp  | limitTo:$ctrl.numLimit" ng-click="$ctrl.goToProduct(product)">
+                <img ng-src="{{product.image}}" class="md-image-no-fill" alt="{{product.name}}"/>
+                <div class="md-list-item-text" layout="column">
+                    <p>{{ product.manufacturer }}</p>
+                    <h3>{{ product.name }}</h3>
+                    <p>ID: {{ product.id }}</p>
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+        </md-list>
+        <md-button class="md-raised" ng-click="$ctrl.showMore()">Показать еще 10</md-button>
+    </md-content>
+</dsiv>
 
 
-<md-input-container>
-    <label>Фильтрация по производителю</label>
-    <md-select ng-model="$ctrl.filter" multiple>
-        <md-optgroup label="Производители">
-            <md-option ng-value="manufacturer" ng-repeat="manufacturer in $ctrl.getManufacturer()" selected="">
-                {{manufacturer}}
-            </md-option>
-        </md-optgroup>
-    </md-select>
-</md-input-container>
 
-<md-input-container class="md-block">
-    <label>
-        Оборудования на странице (доступно {{$ctrl.products.length}}):</label>
-    <input type="number" step="1" ng-model="$ctrl.numLimit" min="1" max="{{$ctrl.products.length}}">
-</md-input-container>
 
-<ul>
-    <li ng-repeat="product in ($ctrl.products | filter: $ctrl.filterByManufacturer) | filter:search:strict
-            |  orderBy:$ctrl.orderProp  | limitTo:$ctrl.numLimit">
-        <a href="#!/products/{{$ctrl.productType}}/{{product.id}}">
-            <img ng-src="{{product.image}}" alt="{{product.name}}"/>
-        </a>
-        <br>
-        <span>ID: {{product.id}}</span>
-        <br>
-        <span>Название: {{product.name}}</span>
-        <br>
-        <span>Производитель: {{product.manufacturer}}</span>
-    </li>
-</ul>
 
-<md-button class="md-raised" ng-click="$ctrl.showMore()">SHOW MORE</md-button>

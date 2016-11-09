@@ -3,3 +3,14 @@
  */
 'use strict';
 
+var navigationPanel = document.querySelector('md-nav-bar');
+
+window.onscroll = function () {
+    var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+
+    if(scrolled){
+        navigationPanel.classList.add('nav__scrolled');
+    }else{
+        navigationPanel.classList.remove('nav__scrolled');
+    }
+};

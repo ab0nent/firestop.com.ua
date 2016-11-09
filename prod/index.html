@@ -7,22 +7,25 @@
     <meta name="description" content="">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 
-    <title>FireStop</title>
+    <title>FIRESTOP</title>
 
     <!--Stylesheets-->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/angular-material.min.css">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
 </head>
 
 <body ng-app = "productsApp">
 
-<md-content class="md-padding">
+<md-content>
     <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
-        <md-nav-item md-nav-href="#!/main" name="main">Главная</md-nav-item>
-        <md-nav-item md-nav-href="#!/products" name="products">Оборудование</md-nav-item>
-        <md-nav-item md-nav-href="#!/contacts" name="contacts">Контакты</md-nav-item>
-        <md-nav-item md-nav-href="#!/about" name="about">О нас</md-nav-item>
+        <span class="logo"><span>FIRE</span>STOP</span>
+        <md-nav-item md-nav-href="#/main" name="main" hide-sm hide-xs>Главная</md-nav-item>
+        <md-nav-item md-nav-href="#/products" name="products" hide-sm hide-xs>Оборудование</md-nav-item>
+        <md-nav-item md-nav-href="#/contacts" name="contacts" hide-sm hide-xs>Контакты</md-nav-item>
+        <md-nav-item md-nav-href="#/about" name="about" hide-sm hide-xs>О нас</md-nav-item>
+
     </md-nav-bar>
 </md-content>
 

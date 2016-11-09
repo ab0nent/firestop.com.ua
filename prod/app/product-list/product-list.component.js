@@ -5,26 +5,34 @@ angular.
     module('productList').
     component( 'productList', {
     templateUrl: 'app/product-list/product-list.template.html',
-    controller: ['$routeParams', 'Product',
-        function ProductListController($routeParams, Product) {
+    controller: ['$routeParams', 'Product', '$location',
+        function ProductListController($routeParams, Product, $location) {
             this.productType = $routeParams.productType
             this.products = Product.query({productType: this.productType, productID: 'list'});
             this.orderProp = 'manufacturer';
             this.numLimit = 10;
 
+
             var self = this;
             self.filter = [];
+            self.goToProduct = goToProduct;
             self.showMore = showMore;
             self.filterByManufacturer = filterByManufacturer;
             self.getManufacturer = getManufacturer;
-            
+
+            function goToProduct(product) {
+                console.log('/products/' + self.productType + '/' + product.id);
+                var productUrl = '/products/' + self.productType + '/' + product.id;
+                $location.path(productUrl);
+            }
+
             function showMore() {
                     self.numLimit += 10;
                     if(self.numLimit > self.products.length){
                         self.numLimit = self.products.length;
                     }
             }
-            
+
             function filterByManufacturer(product) {
                 return self.filter.indexOf(product.manufacturer) >= 0;
             }
@@ -34,7 +42,6 @@ angular.
                 map(function (product) { return product.manufacturer; }).
                 filter(function (cat, idx, arr) { return arr.indexOf(cat) === idx; });
             }
-
         }
     ]
 });
