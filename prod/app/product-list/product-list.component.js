@@ -21,7 +21,7 @@ angular.
             self.getManufacturer = getManufacturer;
 
             function goToProduct(product) {
-                console.log('/products/' + self.productType + '/' + product.id);
+
                 var productUrl = '/products/' + self.productType + '/' + product.id;
                 $location.path(productUrl);
             }

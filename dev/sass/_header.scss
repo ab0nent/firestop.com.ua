@@ -1,0 +1,37 @@
+header{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.logo{
+  display: block;
+  color: #ffffff;
+  margin: 4px;
+  float: left;
+  border-radius: 50%;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.companyName{
+  line-height: 48px;
+  font-size: 28px;
+}
+
+.companyName span{
+  color: red;
+}
+//
+//md-menu{
+//  width: 100%;
+//  padding: 4px;
+//}
+
+.btnMobileMenu{
+  float: right;
+}
+

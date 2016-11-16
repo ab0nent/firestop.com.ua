@@ -3,7 +3,7 @@
  */
 'use strict';
 
-var navigationPanel = document.querySelector('md-nav-bar');
+var navigationPanel = document.querySelector('header');
 
 window.onscroll = function () {
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;

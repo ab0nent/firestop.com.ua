@@ -1,5 +1,14 @@
-md-nav-bar{
+md-content{
+  z-index: 1;
+}
 
+md-nav-bar{
+  width: 100%;
+}
+
+.md-nav-bar{
+  float: right;
+  border: none;
 }
 
 .nav__scrolled{
@@ -7,17 +16,6 @@ md-nav-bar{
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
-  opacity: 1;
-  background-color: #dddddd;
-  transition: all 1s;
+  z-index: 2;
 }
 
-.logo{
-  font-size: 37px;
-  padding: 2px 10px;
-}
-
-.logo span{
-  color: red;
-}

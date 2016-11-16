@@ -5,14 +5,10 @@ angular.
 module('productsApp').
 config(['$locationProvider', '$routeProvider',
     function config($locationProvider, $routeProvider) {
-        // $locationProvider.hashPrefix('!');
 
         $routeProvider.
         when('/main', {
             templateUrl: 'app/static-pages/main.template.html'
-        }).
-        when('/about', {
-            templateUrl: 'app/static-pages/about.template.html'
         }).
         when('/contacts', {
             templateUrl: 'app/static-pages/contacts.template.html'

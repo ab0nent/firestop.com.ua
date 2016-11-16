@@ -5,31 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
 
     <title>FIRESTOP</title>
 
     <!--Stylesheets-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/angular-material.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
 </head>
 
-<body ng-app = "productsApp">
+<body ng-app="productsApp">
+<div class="wrapper">
+    <header>
+        <md-content>
+            <span class="logo">FS</span>
+            <span class="companyName"><span>FIRE</span>STOP</span>
+            <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links" hide-xs>
+                <md-nav-item md-nav-href="#/main" name="main">Главная</md-nav-item>
+                <md-nav-item md-nav-href="#/products" name="products">Оборудование</md-nav-item>
+                <md-nav-item md-nav-href="#/contacts" name="contacts">Контакты</md-nav-item>
+            </md-nav-bar>
 
-<md-content>
-    <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
-        <span class="logo"><span>FIRE</span>STOP</span>
-        <md-nav-item md-nav-href="#/main" name="main" hide-sm hide-xs>Главная</md-nav-item>
-        <md-nav-item md-nav-href="#/products" name="products" hide-sm hide-xs>Оборудование</md-nav-item>
-        <md-nav-item md-nav-href="#/contacts" name="contacts" hide-sm hide-xs>Контакты</md-nav-item>
-        <md-nav-item md-nav-href="#/about" name="about" hide-sm hide-xs>О нас</md-nav-item>
+            <md-menu md-position-mode="target-right target" hide show-xs ng-controller="MobileMenuCtrl as ctrl" flex>
+                <md-button aria-label="Open menu" class="btnMobileMenu md-icon-button" ng-click="$mdOpenMenu($event)">
+                    <md-icon md-svg-src="/img/ic_menu_black_24px.svg" aria-label="android "></md-icon>
+                </md-button>
+                <md-menu-content width="4">
+                    <md-menu-item ng-repeat="item in ctrl.menuItems">
+                        <md-button ng-click="ctrl.mobileMenuClick(item)">
+                            <div layout="row" flex>
+                                <p flex>{{item}}</p>
+                            </div>
+                        </md-button>
+                    </md-menu-item>
+                </md-menu-content>
+            </md-menu>
 
-    </md-nav-bar>
-</md-content>
+        </md-content>
+    </header>
 
-<div ng-view></div>
+    <div class="content">
+        <div ng-view></div>
+    </div>
+
+
+    <footer>
+        <div>© 1996-2016 FIRESTOP</div>
+        <div>+38 050 906 98 74</div>
+    </footer>
+
+</div>
+
 
 <!--Angular and Libraries-->
 <script src="js/angular.min.js"></script>
@@ -50,6 +78,7 @@
 <script src="app/product-list/product-list.component.js"></script>
 <script src="app/product-detail/product-detail.module.js"></script>
 <script src="app/product-detail/product-detail.component.js"></script>
+<script src="app/mobileMenu/mobileMenu.js"></script>
 
 <!--Custom script-->
 <script src="js/main.min.js"></script>
