@@ -1,8 +1,37 @@
-.productList{
+.catList {
+  text-align: center;
+}
+
+.catList-item {
+  display: inline-block;
+  text-align: center;
+  width: 261px;
+  margin: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.26);
+}
+
+.catList-item:hover {
+  box-shadow: 10px 10px 5px grey;
+  transition: 0.5s all;
+}
+
+.catList-item a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.catList-item a:visited {
+  color: #000000;
+}
+
+.productList {
   margin: 10px 0 0 20%;
 }
 
-.filters{
+.filters {
   width: 20%;
   position: fixed;
   top: 48px;
@@ -10,38 +39,100 @@
   z-index: 2;
 }
 
-md-input-container{
+.companyAbout {
+  height: 500px;
+  width: 100%;
+  background: url("../img/bg.jpg") no-repeat fixed center;
+  background-size: cover;
+  text-align: center;
+}
+
+.companyAbout div {
+  padding-top: 200px;
+  font-size: 54px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -2.2px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+md-input-container {
   width: 100%;
   margin-bottom: 0;
 }
 
-md-list-item{
+md-list-item {
   float: left;
   width: 33.3%;
   margin-top: 3px;
 }
 
-.btnShowMore{
+.btnShowMore {
   height: 88px;
   width: 100%;
-  background-color: rgb(240,240,240);
+  background-color: rgb(240, 240, 240);
 }
 
-@media (min-width: 600px) and (max-width: 960px)  {
-  md-list-item{
+.companyServices{
+  text-align: center;
+  padding: 50px 0;
+}
+
+.companyServices-item{
+  display: inline-block;
+  margin: 10px;
+}
+
+.companyServices span {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -2.2px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+.companyServices md-content{
+  text-align: center;
+}
+
+.companyServices md-icon {
+  height: 100px;
+  width: 100px;
+}
+
+
+@media (min-width: 600px) and (max-width: 960px) {
+  md-list-item {
     width: 50%;
   }
 
+  .companyAbout div {
+    padding-top: 150px;
+
+  }
+
 }
-@media (max-width: 600px)  {
-  md-list-item{
+
+@media (max-width: 600px) {
+  md-list-item {
     width: 100%;
   }
-  .filters{
+
+  .filters {
     width: 40%;
   }
 
-  .productList{
+  .productList {
     margin: 10px 0 0 40%;
+  }
+
+  .companyAbout div {
+    padding-top: 150px;
+    font-size: 40px;
   }
 }
