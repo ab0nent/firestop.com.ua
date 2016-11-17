@@ -1,3 +1,7 @@
+.clearfix{
+  overflow: auto;
+}
+
 .catList {
   text-align: center;
 }
@@ -83,10 +87,11 @@ md-list-item {
 
 .companyServices-item{
   display: inline-block;
-  margin: 10px;
+  margin: 20px;
 }
 
 .companyServices span {
+  color: #455a64;
   font-size: 50px;
   font-weight: bold;
   font-style: normal;
@@ -103,6 +108,34 @@ md-list-item {
 .companyServices md-icon {
   height: 100px;
   width: 100px;
+}
+
+.companyProducts{
+  float: left;
+  background: url("../img/sec.jpg") no-repeat center;
+
+}
+
+.companyContacts{
+  float: right;
+  background: url("../img/Contacts.jpg") no-repeat center;
+}
+
+.companyProducts, .companyContacts {
+  background-size: cover;
+  text-align: center;
+  height: 400px;
+  width: 50%;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -2.2px;
+  line-height: 400px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
 }
 
 
@@ -134,5 +167,9 @@ md-list-item {
   .companyAbout div {
     padding-top: 150px;
     font-size: 40px;
+  }
+
+  .companyProducts, .companyContacts {
+    width: 100%;
   }
 }
