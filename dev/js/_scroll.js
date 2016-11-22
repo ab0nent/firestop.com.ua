@@ -8,8 +8,6 @@ var logo = document.querySelector('.logo');
 
 menu.addEventListener('click', ScrollTop);
 logo.addEventListener('click', ScrollTop);
-productsLink.addEventListener('click', ScrollTop);
-contactsLink.addEventListener('click', ScrollTop);
 
 function ScrollTop() {
     setTimeout(function(){window.scrollTo(0,0);}, 1);
