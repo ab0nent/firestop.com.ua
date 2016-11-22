@@ -1,21 +1,24 @@
-md-content{
-  z-index: 1;
-}
-
-md-nav-bar{
-  width: 100%;
-}
-
-.md-nav-bar{
+.menu{
   float: right;
   border: none;
 }
 
-.nav__scrolled{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
+.menu-item{
+  display: inline-block;
 }
 
+.menu-item-link{
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  font-size: 15px;
+  padding: 0 10px;
+  color: #455a64;
+  transition: 0.5s all;
+}
+
+.menu-item-link:hover{
+  color: #000000;
+  background-color: #f0f0f0;
+  transition: 0.5s all;
+}

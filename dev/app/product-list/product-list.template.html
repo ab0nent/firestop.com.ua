@@ -52,9 +52,9 @@
 
     </div>
 
-    <md-content class="productList">
+    <md-content class="product-list">
         <md-list>
-            <md-list-item class="md-3-line" ng-repeat="product in ($ctrl.products | filter: $ctrl.filterByManufacturer) | filter:search:strict
+            <md-list-item class="product-list-item md-3-line" ng-repeat="product in ($ctrl.products | filter: $ctrl.filterByManufacturer) | filter:search:strict
             |  orderBy:$ctrl.orderProp  | limitTo:$ctrl.numLimit" ng-click="$ctrl.goToProduct(product)">
                 <img ng-src="{{product.image}}" class="md-image-no-fill" alt="{{product.name}}"/>
                 <div class="md-list-item-text" layout="column">

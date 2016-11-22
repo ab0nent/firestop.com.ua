@@ -10,7 +10,7 @@ angular.
             this.productType = $routeParams.productType
             this.products = Product.query({productType: this.productType, productID: 'list'});
             this.orderProp = 'manufacturer';
-            this.numLimit = 10;
+            this.numLimit = 30;
 
 
             var self = this;
@@ -21,7 +21,7 @@ angular.
             self.getManufacturer = getManufacturer;
 
             function goToProduct(product) {
-
+                ScrollTop();
                 var productUrl = '/products/' + self.productType + '/' + product.id;
                 $location.path(productUrl);
             }

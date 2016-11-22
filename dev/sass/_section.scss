@@ -2,37 +2,33 @@
   overflow: auto;
 }
 
-.catList {
+ul{
+  list-style: none;
+}
+
+.category-list{
   text-align: center;
 }
 
-.catList-item {
+.category-list a{
   display: inline-block;
-  text-align: center;
-  width: 261px;
-  margin: 5px;
-  background-color: #ffffff;
+}
+
+.category-list md-card:hover{
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.26);
 }
 
-.catList-item:hover {
-  box-shadow: 10px 10px 5px grey;
-  transition: 0.5s all;
+.category-list md-card{
+  width: 300px;
 }
 
-.catList-item a {
-  text-decoration: none;
-  color: #000000;
+.md-headline{
   font-size: 22px;
-  font-weight: 500;
 }
 
-.catList-item a:visited {
-  color: #000000;
-}
+.product-list {
+  margin: 0 0 0 20%;
 
-.productList {
-  margin: 10px 0 0 20%;
 }
 
 .filters {
@@ -43,7 +39,7 @@
   z-index: 2;
 }
 
-.companyAbout {
+.company-about {
   height: 500px;
   width: 100%;
   background: url("../img/bg.jpg") no-repeat fixed center;
@@ -51,7 +47,7 @@
   text-align: center;
 }
 
-.companyAbout div {
+.company-about div {
   padding-top: 200px;
   font-size: 54px;
   font-weight: bold;
@@ -80,17 +76,23 @@ md-list-item {
   background-color: rgb(240, 240, 240);
 }
 
-.companyServices{
+.company-services{
   text-align: center;
   padding: 50px 0;
 }
 
-.companyServices-item{
+.company-services-item{
   display: inline-block;
   margin: 20px;
+  width: 210px;
 }
 
-.companyServices span {
+.company-services-item img {
+  width: 70px;
+  height: 70px;
+}
+
+.company-services span {
   color: #455a64;
   font-size: 50px;
   font-weight: bold;
@@ -101,27 +103,18 @@ md-list-item {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
 }
 
-.companyServices md-content{
-  text-align: center;
-}
-
-.companyServices md-icon {
-  height: 100px;
-  width: 100px;
-}
-
-.companyProducts{
+.company-products{
   float: left;
   background: url("../img/sec.jpg") no-repeat center;
 
 }
 
-.companyContacts{
+.company-contacts{
   float: right;
   background: url("../img/Contacts.jpg") no-repeat center;
 }
 
-.companyProducts, .companyContacts {
+.company-products, .company-contacts {
   background-size: cover;
   text-align: center;
   height: 400px;
@@ -132,23 +125,67 @@ md-list-item {
   font-stretch: normal;
   letter-spacing: -2.2px;
   line-height: 400px;
-  text-align: center;
   text-decoration: none;
   color: #ffffff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
 }
 
+.contacts-list{
+  //margin-top: 10px;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+.contacts-list-item{
+  margin-bottom: 30px;
+}
+.contacts-list-item h3{
+  font-size: 30px;
+}
+
+.contacts-list-item p{
+  font-size: 20px;
+}
+
+.payment, .delivery{
+  width: 50%;
+  float: left;
+}
+
+.payment h3, .delivery h3{
+  font-size: 25px;
+  padding: 20px 0 0 20px;
+}
+
+.payment li, .delivery li{
+  padding: 20px 0 0 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.delivery li:last-child, .payment li:last-child{
+  padding-bottom: 20px;
+}
 
 @media (min-width: 600px) and (max-width: 960px) {
   md-list-item {
     width: 50%;
   }
 
-  .companyAbout div {
+  .payment, .delivery{
+    width: 100%;
+
+  }
+
+  .company-about div {
     padding-top: 150px;
 
   }
 
+  .company-products, .company-contacts {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -156,20 +193,33 @@ md-list-item {
     width: 100%;
   }
 
+  .payment, .delivery{
+    width: 100%;
+
+  }
+
+  .contacts-list{
+    width: 100%;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
   .filters {
     width: 40%;
   }
 
-  .productList {
-    margin: 10px 0 0 40%;
+  .product-list {
+    margin: 0 0 0 40%;
   }
 
-  .companyAbout div {
+  .company-about div {
     padding-top: 150px;
     font-size: 40px;
   }
 
-  .companyProducts, .companyContacts {
+  .company-products, .company-contacts {
     width: 100%;
   }
 }
