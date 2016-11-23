@@ -1,1 +1,28 @@
-{"id":247,"name":"Модуль GPRS Satel GPRS-T4","image":"img/security/img_93.jpg","productDetails":[{"Name":"Напряжение питания (±15%","Value":"12 В DC"},{"Name":"Максимальное потребление ток","Value":"190 мА"},{"Name":"Потребление тока в режиме готовност","Value":"45 мА"},{"Name":"Габаритные размеры платы электроник","Value":"80 x 57 мм"},{"Name":"Ве","Value":"184 г"}],"manufacturer":"Satel"}
+{
+    "id":  247,
+    "name":  "Модуль GPRS Satel GPRS-T4",
+    "image":  "img/security/img_93.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Напряжение питания (±15%",
+                               "Value":  "12 В DC"
+                           },
+                           {
+                               "Name":  "Максимальное потребление ток",
+                               "Value":  "190 мА"
+                           },
+                           {
+                               "Name":  "Потребление тока в режиме готовност",
+                               "Value":  "45 мА"
+                           },
+                           {
+                               "Name":  "Габаритные размеры платы электроник",
+                               "Value":  "80 x 57 мм"
+                           },
+                           {
+                               "Name":  "Ве",
+                               "Value":  "184 г"
+                           }
+                       ],
+    "manufacturer":  "Satel"
+}

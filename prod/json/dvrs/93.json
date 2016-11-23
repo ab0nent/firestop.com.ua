@@ -1,1 +1,72 @@
-{"id":93,"name":"Dahua Technology NVR7208","image":"img/dvrs/img_60.jpg","productDetails":[{"Name":"Видеовходы","Value":"8"},{"Name":"Разрешение записи (макс.)","Value":"1080P (1920×1080)"},{"Name":"VGA","Value":"да"},{"Name":"HDMI","Value":"да"},{"Name":"Скорость записи FullHD/канал","Value":"?"},{"Name":"Матричный выход","Value":"нет"},{"Name":"Транзитные выходы","Value":"нет"},{"Name":"Тревожные входы","Value":"8 каналов"},{"Name":"Релейные выходы","Value":"3 канала"},{"Name":"Жесткий диск (шт)","Value":"2 х SATA"},{"Name":"USB-интерфейс (шт)","Value":"2"},{"Name":"Интерфейс RS232","Value":"да"},{"Name":"Интерфейс RS485","Value":"да"},{"Name":"Потребляемая мощность","Value":"60W (без HDD)"},{"Name":"Габариты","Value":"1U, 375мм×285мм×50мм"},{"Name":"Вес","Value":"2.3Кг (without HDD)"}],"manufacturer":"Dahua"}
+{
+    "id":  93,
+    "name":  "Dahua Technology NVR7208",
+    "image":  "img/dvrs/img_60.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Видеовходы",
+                               "Value":  "8"
+                           },
+                           {
+                               "Name":  "Разрешение записи (макс.)",
+                               "Value":  "1080P (1920×1080)"
+                           },
+                           {
+                               "Name":  "VGA",
+                               "Value":  "да"
+                           },
+                           {
+                               "Name":  "HDMI",
+                               "Value":  "да"
+                           },
+                           {
+                               "Name":  "Скорость записи FullHD/канал",
+                               "Value":  "?"
+                           },
+                           {
+                               "Name":  "Матричный выход",
+                               "Value":  "нет"
+                           },
+                           {
+                               "Name":  "Транзитные выходы",
+                               "Value":  "нет"
+                           },
+                           {
+                               "Name":  "Тревожные входы",
+                               "Value":  "8 каналов"
+                           },
+                           {
+                               "Name":  "Релейные выходы",
+                               "Value":  "3 канала"
+                           },
+                           {
+                               "Name":  "Жесткий диск (шт)",
+                               "Value":  "2 х SATA"
+                           },
+                           {
+                               "Name":  "USB-интерфейс (шт)",
+                               "Value":  "2"
+                           },
+                           {
+                               "Name":  "Интерфейс RS232",
+                               "Value":  "да"
+                           },
+                           {
+                               "Name":  "Интерфейс RS485",
+                               "Value":  "да"
+                           },
+                           {
+                               "Name":  "Потребляемая мощность",
+                               "Value":  "60W (без HDD)"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "1U, 375мм×285мм×50мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "2.3Кг (without HDD)"
+                           }
+                       ],
+    "manufacturer":  "Dahua"
+}

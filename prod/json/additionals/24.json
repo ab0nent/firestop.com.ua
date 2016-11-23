@@ -1,1 +1,16 @@
-{"id":24,"name":"Кронштейн Hikvision DS-1602ZJ-box","image":"img/additionals/img_28.jpg","productDetails":[{"Name":"Материал","Value":"алюминий"},{"Name":"Габариты","Value":"396x209x310 мм"}],"manufacturer":"Hikvision"}
+{
+    "id":  24,
+    "name":  "Кронштейн Hikvision DS-1602ZJ-box",
+    "image":  "img/additionals/img_28.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Материал",
+                               "Value":  "алюминий"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "396x209x310 мм"
+                           }
+                       ],
+    "manufacturer":  "Hikvision"
+}

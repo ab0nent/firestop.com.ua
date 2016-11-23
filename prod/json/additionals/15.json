@@ -1,1 +1,28 @@
-{"id":15,"name":"VidiTech CA-J11","image":"img/additionals/img_19.jpg","productDetails":[{"Name":"Тип","Value":"потолочный кронштейн для камеры видеонаблюдения"},{"Name":"Материал","Value":"алюминиевый сплав"},{"Name":"Регулировка","Value":"наклон / поворот"},{"Name":"Нагрузка","Value":"до 10 кг"},{"Name":"Габариты","Value":"120 х 1200 мм"}],"manufacturer":"VidiTech"}
+{
+    "id":  15,
+    "name":  "VidiTech CA-J11",
+    "image":  "img/additionals/img_19.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Тип",
+                               "Value":  "потолочный кронштейн для камеры видеонаблюдения"
+                           },
+                           {
+                               "Name":  "Материал",
+                               "Value":  "алюминиевый сплав"
+                           },
+                           {
+                               "Name":  "Регулировка",
+                               "Value":  "наклон / поворот"
+                           },
+                           {
+                               "Name":  "Нагрузка",
+                               "Value":  "до 10 кг"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "120 х 1200 мм"
+                           }
+                       ],
+    "manufacturer":  "VidiTech"
+}

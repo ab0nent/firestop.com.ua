@@ -1,1 +1,64 @@
-{"id":15,"name":"Неуправляемый POE коммутатор Utepo UTP7204GE-HPOE","image":"img/network/img_10.jpg","productDetails":[{"Name":"SFP пор","Value":"2"},{"Name":"Ти","Value":"Коммутатор неуправляемый"},{"Name":"Общее количество порто","Value":"8"},{"Name":"Количество PoE порто","Value":"4x 100 Мбит/с"},{"Name":"Uplink пор","Value":"4"},{"Name":"Стандарт питания Po","Value":"IEEE 802.3af/at"},{"Name":"Буфер памят","Value":"1М"},{"Name":"Светодиодная индикаци","Value":"Ethernet порт, Оптический порт, Uplink Ethernet порт, Питания"},{"Name":"Расстояние питания Po","Value":"1-4 порты: по умолчанию 100 метров; UPLINK: 100 метров"},{"Name":"Питани","Value":"DC48В-57В"},{"Name":"Размер","Value":"163х110х46 мм"},{"Name":"Ве","Value":"530 г"},{"Name":"Рабочая температур","Value":"-40°~75°С"},{"Name":"Гаранти","Value":"1 год"}],"manufacturer":"Utepo"}
+{
+    "id":  15,
+    "name":  "Неуправляемый POE коммутатор Utepo UTP7204GE-HPOE",
+    "image":  "img/network/img_10.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "SFP пор",
+                               "Value":  "2"
+                           },
+                           {
+                               "Name":  "Ти",
+                               "Value":  "Коммутатор неуправляемый"
+                           },
+                           {
+                               "Name":  "Общее количество порто",
+                               "Value":  "8"
+                           },
+                           {
+                               "Name":  "Количество PoE порто",
+                               "Value":  "4x 100 Мбит/с"
+                           },
+                           {
+                               "Name":  "Uplink пор",
+                               "Value":  "4"
+                           },
+                           {
+                               "Name":  "Стандарт питания Po",
+                               "Value":  "IEEE 802.3af/at"
+                           },
+                           {
+                               "Name":  "Буфер памят",
+                               "Value":  "1М"
+                           },
+                           {
+                               "Name":  "Светодиодная индикаци",
+                               "Value":  "Ethernet порт, Оптический порт, Uplink Ethernet порт, Питания"
+                           },
+                           {
+                               "Name":  "Расстояние питания Po",
+                               "Value":  "1-4 порты: по умолчанию 100 метров; UPLINK: 100 метров"
+                           },
+                           {
+                               "Name":  "Питани",
+                               "Value":  "DC48В-57В"
+                           },
+                           {
+                               "Name":  "Размер",
+                               "Value":  "163х110х46 мм"
+                           },
+                           {
+                               "Name":  "Ве",
+                               "Value":  "530 г"
+                           },
+                           {
+                               "Name":  "Рабочая температур",
+                               "Value":  "-40°~75°С"
+                           },
+                           {
+                               "Name":  "Гаранти",
+                               "Value":  "1 год"
+                           }
+                       ],
+    "manufacturer":  "Utepo"
+}

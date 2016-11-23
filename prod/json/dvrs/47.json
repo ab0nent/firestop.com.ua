@@ -1,1 +1,84 @@
-{"id":47,"name":"Hikvision DS-7108NI-E1/V/W","image":"img/dvrs/img_1.jpg","productDetails":[{"Name":"Поддержка IP-камер","Value":"8-каналов"},{"Name":"Двухсторонняя аудиосвязь","Value":"Есть"},{"Name":"Монито","Value":"HDMI: 1-канал, разрешение : 1920х1080, 1600х1200, 1280х1024, 1280х720, 1024х768"},{"Name":"Видеокодек","Value":"H.264 / MJPEG"},{"Name":"Битрейт запис","Value":"50 Мб/с"},{"Name":"Синхронизированное воспроизведение","Value":"8-кан"},{"Name":"Ethernet интерфейс","Value":"1xRJ-45 - WAN интерфейс; 3xRJ-45 LAN интерфейс;"},{"Name":"Протокол Ethernet","Value":"IPv6, UPnP, SNMP, NTP, SADP, DDNS, SMTP, NFS, iSCSI."},{"Name":"HDD","Value":"1 х SATA 2.5\" до 500Гб / 1 Тб"},{"Name":"USB разъемы","Value":"1хUSB 2.0"},{"Name":"RS232","Value":"Нет"},{"Name":"RS485","Value":"Нет"},{"Name":"Источник питания","Value":"DC 12В"},{"Name":"Потребляемая мощност","Value":"\u003c 12Вт (без жесткого диска)"},{"Name":"Рабочая температура","Value":"-0°C~+40°C"},{"Name":"Влажность","Value":"10%~90%"},{"Name":"Габариты","Value":"87х87х157 мм"},{"Name":"Вес","Value":"\u003c 0.53кг (без HDD)"},{"Name":"Гарантия","Value":"12 месяцев"}],"manufacturer":"Hikvision"}
+{
+    "id":  47,
+    "name":  "Hikvision DS-7108NI-E1/V/W",
+    "image":  "img/dvrs/img_1.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Поддержка IP-камер",
+                               "Value":  "8-каналов"
+                           },
+                           {
+                               "Name":  "Двухсторонняя аудиосвязь",
+                               "Value":  "Есть"
+                           },
+                           {
+                               "Name":  "Монито",
+                               "Value":  "HDMI: 1-канал, разрешение : 1920х1080, 1600х1200, 1280х1024, 1280х720, 1024х768"
+                           },
+                           {
+                               "Name":  "Видеокодек",
+                               "Value":  "H.264 / MJPEG"
+                           },
+                           {
+                               "Name":  "Битрейт запис",
+                               "Value":  "50 Мб/с"
+                           },
+                           {
+                               "Name":  "Синхронизированное воспроизведение",
+                               "Value":  "8-кан"
+                           },
+                           {
+                               "Name":  "Ethernet интерфейс",
+                               "Value":  "1xRJ-45 - WAN интерфейс; 3xRJ-45 LAN интерфейс;"
+                           },
+                           {
+                               "Name":  "Протокол Ethernet",
+                               "Value":  "IPv6, UPnP, SNMP, NTP, SADP, DDNS, SMTP, NFS, iSCSI."
+                           },
+                           {
+                               "Name":  "HDD",
+                               "Value":  "1 х SATA 2.5\" до 500Гб / 1 Тб"
+                           },
+                           {
+                               "Name":  "USB разъемы",
+                               "Value":  "1хUSB 2.0"
+                           },
+                           {
+                               "Name":  "RS232",
+                               "Value":  "Нет"
+                           },
+                           {
+                               "Name":  "RS485",
+                               "Value":  "Нет"
+                           },
+                           {
+                               "Name":  "Источник питания",
+                               "Value":  "DC 12В"
+                           },
+                           {
+                               "Name":  "Потребляемая мощност",
+                               "Value":  "\u003c 12Вт (без жесткого диска)"
+                           },
+                           {
+                               "Name":  "Рабочая температура",
+                               "Value":  "-0°C~+40°C"
+                           },
+                           {
+                               "Name":  "Влажность",
+                               "Value":  "10%~90%"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "87х87х157 мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "\u003c 0.53кг (без HDD)"
+                           },
+                           {
+                               "Name":  "Гарантия",
+                               "Value":  "12 месяцев"
+                           }
+                       ],
+    "manufacturer":  "Hikvision"
+}

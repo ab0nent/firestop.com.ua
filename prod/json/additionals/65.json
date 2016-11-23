@@ -1,1 +1,20 @@
-{"id":65,"name":"Монтажная коробка Dahua Technology PFA150","image":"img/additionals/img_10.jpg","productDetails":[{"Name":"Материал","Value":"алюминий"},{"Name":"Габариты","Value":"130.4 x 170 x 45 мм"},{"Name":"Вес","Value":"0.93 кг"}],"manufacturer":"Dahua"}
+{
+    "id":  65,
+    "name":  "Монтажная коробка Dahua Technology PFA150",
+    "image":  "img/additionals/img_10.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Материал",
+                               "Value":  "алюминий"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "130.4 x 170 x 45 мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "0.93 кг"
+                           }
+                       ],
+    "manufacturer":  "Dahua"
+}

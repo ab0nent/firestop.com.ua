@@ -1,1 +1,56 @@
-{"id":213,"name":"Hikvision DS-7204HUHI-F1/N","image":"img/dvrs/img_23.jpg","productDetails":[{"Name":null,"Value":" "},{"Name":null,"Value":" HTTP 40"},{"Name":null,"Value":"  "},{"Name":null,"Value":"  "},{"Name":null,"Value":"  "},{"Name":null,"Value":" "},{"Name":null,"Value":"  "},{"Name":null,"Value":" "},{"Name":null,"Value":"  "},{"Name":null,"Value":" "},{"Name":null,"Value":"  "},{"Name":null,"Value":" "}],"manufacturer":"Hikvision"}
+{
+    "id":  213,
+    "name":  "Hikvision DS-7204HUHI-F1/N",
+    "image":  "img/dvrs/img_23.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  null,
+                               "Value":  " "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  " HTTP 40"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "  "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "  "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "  "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  " "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "  "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  " "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "  "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  " "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "  "
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  " "
+                           }
+                       ],
+    "manufacturer":  "Hikvision"
+}

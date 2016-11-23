@@ -1,1 +1,96 @@
-{"id":191,"name":"Hikvision DS-7316HQHI-F4/N","image":"img/dvrs/img_27.jpg","productDetails":[{"Name":"Количество каналов","Value":"16-каналов; BNC интерфейс (1.0Vp-p, 75 Ω)"},{"Name":"Поддержка типов камер","Value":"HD-TVI, AHD, сетевые и аналоговые камеры"},{"Name":"Формат сжатия видео","Value":"H.264+ / H.264"},{"Name":"HDMI и VGA выход","Value":"4K (3840х2160)/30Hz, 2K(2560х1440)/60Hz, 1920х1080/60Hz, 1280х1024/60Hz, 1280х720/60Hz, 1024х68/60Hz"},{"Name":"Скорость записи","Value":"Главный поток: 25 кадров/с доп поток:WD1/4CIF - 12 кадров/с, CIF/QVGA/QCIF - 25 кадров/"},{"Name":"Битрейд видео","Value":"32 Kbps- 6 Mbps"},{"Name":"Аудиовыход","Value":"1-кан, RCA (Linear, 1KΩ)"},{"Name":"Аудиокодек","Value":"G.711г"},{"Name":"Битрейд аудио","Value":"64 Kbps"},{"Name":"Ethernet интерфейс","Value":"1xRJ-45"},{"Name":"Протокол Ethernet","Value":"TCP/IP, PPPoE, DHCP, Hik-connect Cloud P2P, DNS, DDNS, NTP, SADP, NFS, iSCSI, UPnP™, HTTPS, ONVIF"},{"Name":"Макс. кол-во. одновременных подключений","Value":"128"},{"Name":"Синхронизированное воспроизведение","Value":"16 каналов"},{"Name":"RS-485","Value":"1 для PTZ-управления"},{"Name":"HDD","Value":"4xSATA до 24 TB, 6Тб на один интерфейс SATA"},{"Name":"USB-интерфейсы","Value":"2 х USB 2.0, 1 х USB 3.0"},{"Name":"Источник питания","Value":"AC 220V"},{"Name":"Потребляемая мощность","Value":"≤ 55W"},{"Name":"Рабочая температура","Value":"-10 ºC ~+55 ºC"},{"Name":"Влажность","Value":"10% ~ 90%"},{"Name":"Габариты","Value":"445x390x70 мм"},{"Name":"Вес","Value":"≤ 5Кг (без жесткого диска)"}],"manufacturer":"Hikvision"}
+{
+    "id":  191,
+    "name":  "Hikvision DS-7316HQHI-F4/N",
+    "image":  "img/dvrs/img_27.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Количество каналов",
+                               "Value":  "16-каналов; BNC интерфейс (1.0Vp-p, 75 Ω)"
+                           },
+                           {
+                               "Name":  "Поддержка типов камер",
+                               "Value":  "HD-TVI, AHD, сетевые и аналоговые камеры"
+                           },
+                           {
+                               "Name":  "Формат сжатия видео",
+                               "Value":  "H.264+ / H.264"
+                           },
+                           {
+                               "Name":  "HDMI и VGA выход",
+                               "Value":  "4K (3840х2160)/30Hz, 2K(2560х1440)/60Hz, 1920х1080/60Hz, 1280х1024/60Hz, 1280х720/60Hz, 1024х68/60Hz"
+                           },
+                           {
+                               "Name":  "Скорость записи",
+                               "Value":  "Главный поток: 25 кадров/с доп поток:WD1/4CIF - 12 кадров/с, CIF/QVGA/QCIF - 25 кадров/"
+                           },
+                           {
+                               "Name":  "Битрейд видео",
+                               "Value":  "32 Kbps- 6 Mbps"
+                           },
+                           {
+                               "Name":  "Аудиовыход",
+                               "Value":  "1-кан, RCA (Linear, 1KΩ)"
+                           },
+                           {
+                               "Name":  "Аудиокодек",
+                               "Value":  "G.711г"
+                           },
+                           {
+                               "Name":  "Битрейд аудио",
+                               "Value":  "64 Kbps"
+                           },
+                           {
+                               "Name":  "Ethernet интерфейс",
+                               "Value":  "1xRJ-45"
+                           },
+                           {
+                               "Name":  "Протокол Ethernet",
+                               "Value":  "TCP/IP, PPPoE, DHCP, Hik-connect Cloud P2P, DNS, DDNS, NTP, SADP, NFS, iSCSI, UPnP™, HTTPS, ONVIF"
+                           },
+                           {
+                               "Name":  "Макс. кол-во. одновременных подключений",
+                               "Value":  "128"
+                           },
+                           {
+                               "Name":  "Синхронизированное воспроизведение",
+                               "Value":  "16 каналов"
+                           },
+                           {
+                               "Name":  "RS-485",
+                               "Value":  "1 для PTZ-управления"
+                           },
+                           {
+                               "Name":  "HDD",
+                               "Value":  "4xSATA до 24 TB, 6Тб на один интерфейс SATA"
+                           },
+                           {
+                               "Name":  "USB-интерфейсы",
+                               "Value":  "2 х USB 2.0, 1 х USB 3.0"
+                           },
+                           {
+                               "Name":  "Источник питания",
+                               "Value":  "AC 220V"
+                           },
+                           {
+                               "Name":  "Потребляемая мощность",
+                               "Value":  "≤ 55W"
+                           },
+                           {
+                               "Name":  "Рабочая температура",
+                               "Value":  "-10 ºC ~+55 ºC"
+                           },
+                           {
+                               "Name":  "Влажность",
+                               "Value":  "10% ~ 90%"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "445x390x70 мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "≤ 5Кг (без жесткого диска)"
+                           }
+                       ],
+    "manufacturer":  "Hikvision"
+}

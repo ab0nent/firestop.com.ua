@@ -1,1 +1,100 @@
-{"id":198,"name":"Hikvision DS-7208HUHI-F1/N","image":"img/dvrs/img_23.jpg","productDetails":[{"Name":"Количество каналов","Value":"8 каналов"},{"Name":"Поддержка типов камер","Value":"Аналог и HD-TV, AHD, IP камеры"},{"Name":"Видеовходы (аналог, HD-TVI)","Value":"4 х BNC интерфейс (1.0Vp-p, 75 Ω)"},{"Name":"Формат сжатия видео","Value":"H.264+"},{"Name":"HDMI и VGA выход","Value":"4K (3840х2160)/30Hz, 2K(2560х1440)/60Hz, 1920х1080/60Hz, 1280х1024/60Hz, 1280х720/60Hz, 1024х68/60Hz"},{"Name":"Скорость записи","Value":"Главный поток: 25 кадров/с Доп поток: WD1/4CIF - 12 кадров/с, CIF/QVGA/QCIF - 25 кадров/"},{"Name":"Битрейд видео","Value":"32 Kbps-10 Mbps"},{"Name":"Аудиовыход","Value":"1-кан, RCA (Linear, 1KΩ)"},{"Name":"Аудиокодек","Value":"G.711г"},{"Name":"Битрейд аудио","Value":"64 Kbps"},{"Name":"Ethernet интерфейс","Value":"1xRJ-45"},{"Name":"Протокол Ethernet","Value":"TCP/IP, PPPoE, DHCP, Hik-connect Cloud P2P, DNS, DDNS, NTP, SADP, NFS, iSCSI, UPnP™, HTTPS, ONVIF"},{"Name":"Макс. кол-во. одновременных подключений","Value":"128"},{"Name":"Синхронизированное воспроизведение","Value":"8 каналов"},{"Name":"RS-485","Value":"1 для PTZ-управления"},{"Name":"HDD","Value":"1xSATA до 6 Тб"},{"Name":"USB-интерфейсы","Value":"1 х USB 2.0, 1 х USB 3.0"},{"Name":"Источник питания","Value":"12V DC"},{"Name":"Потребляемая мощность","Value":"≤ 20W"},{"Name":"Рабочая температура","Value":"-10 ºC ~+55 ºC"},{"Name":"Влажность","Value":"10% ~ 90%"},{"Name":"Габариты","Value":"315 × 242 × 45мм"},{"Name":"Вес","Value":"≤ 2Кг (без жесткого диска)"}],"manufacturer":"Hikvision"}
+{
+    "id":  198,
+    "name":  "Hikvision DS-7208HUHI-F1/N",
+    "image":  "img/dvrs/img_23.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Количество каналов",
+                               "Value":  "8 каналов"
+                           },
+                           {
+                               "Name":  "Поддержка типов камер",
+                               "Value":  "Аналог и HD-TV, AHD, IP камеры"
+                           },
+                           {
+                               "Name":  "Видеовходы (аналог, HD-TVI)",
+                               "Value":  "4 х BNC интерфейс (1.0Vp-p, 75 Ω)"
+                           },
+                           {
+                               "Name":  "Формат сжатия видео",
+                               "Value":  "H.264+"
+                           },
+                           {
+                               "Name":  "HDMI и VGA выход",
+                               "Value":  "4K (3840х2160)/30Hz, 2K(2560х1440)/60Hz, 1920х1080/60Hz, 1280х1024/60Hz, 1280х720/60Hz, 1024х68/60Hz"
+                           },
+                           {
+                               "Name":  "Скорость записи",
+                               "Value":  "Главный поток: 25 кадров/с Доп поток: WD1/4CIF - 12 кадров/с, CIF/QVGA/QCIF - 25 кадров/"
+                           },
+                           {
+                               "Name":  "Битрейд видео",
+                               "Value":  "32 Kbps-10 Mbps"
+                           },
+                           {
+                               "Name":  "Аудиовыход",
+                               "Value":  "1-кан, RCA (Linear, 1KΩ)"
+                           },
+                           {
+                               "Name":  "Аудиокодек",
+                               "Value":  "G.711г"
+                           },
+                           {
+                               "Name":  "Битрейд аудио",
+                               "Value":  "64 Kbps"
+                           },
+                           {
+                               "Name":  "Ethernet интерфейс",
+                               "Value":  "1xRJ-45"
+                           },
+                           {
+                               "Name":  "Протокол Ethernet",
+                               "Value":  "TCP/IP, PPPoE, DHCP, Hik-connect Cloud P2P, DNS, DDNS, NTP, SADP, NFS, iSCSI, UPnP™, HTTPS, ONVIF"
+                           },
+                           {
+                               "Name":  "Макс. кол-во. одновременных подключений",
+                               "Value":  "128"
+                           },
+                           {
+                               "Name":  "Синхронизированное воспроизведение",
+                               "Value":  "8 каналов"
+                           },
+                           {
+                               "Name":  "RS-485",
+                               "Value":  "1 для PTZ-управления"
+                           },
+                           {
+                               "Name":  "HDD",
+                               "Value":  "1xSATA до 6 Тб"
+                           },
+                           {
+                               "Name":  "USB-интерфейсы",
+                               "Value":  "1 х USB 2.0, 1 х USB 3.0"
+                           },
+                           {
+                               "Name":  "Источник питания",
+                               "Value":  "12V DC"
+                           },
+                           {
+                               "Name":  "Потребляемая мощность",
+                               "Value":  "≤ 20W"
+                           },
+                           {
+                               "Name":  "Рабочая температура",
+                               "Value":  "-10 ºC ~+55 ºC"
+                           },
+                           {
+                               "Name":  "Влажность",
+                               "Value":  "10% ~ 90%"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "315 × 242 × 45мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "≤ 2Кг (без жесткого диска)"
+                           }
+                       ],
+    "manufacturer":  "Hikvision"
+}

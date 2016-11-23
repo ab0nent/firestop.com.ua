@@ -1,1 +1,28 @@
-{"id":10,"name":"Avigard Alarm 4x0.22 мм экран","image":"img/cabels/img_3.jpg","productDetails":[{"Name":"Тип кабеля","Value":"сигнальный кабель с однослойным экранированием"},{"Name":"Количество жил","Value":"4"},{"Name":"Толщина жил","Value":"4 х 0.22 мм"},{"Name":"Цвет","Value":"белый"},{"Name":"Метраж бухты","Value":"100 м"}],"manufacturer":"Avigard"}
+{
+    "id":  10,
+    "name":  "Avigard Alarm 4x0.22 мм экран",
+    "image":  "img/cabels/img_3.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Тип кабеля",
+                               "Value":  "сигнальный кабель с однослойным экранированием"
+                           },
+                           {
+                               "Name":  "Количество жил",
+                               "Value":  "4"
+                           },
+                           {
+                               "Name":  "Толщина жил",
+                               "Value":  "4 х 0.22 мм"
+                           },
+                           {
+                               "Name":  "Цвет",
+                               "Value":  "белый"
+                           },
+                           {
+                               "Name":  "Метраж бухты",
+                               "Value":  "100 м"
+                           }
+                       ],
+    "manufacturer":  "Avigard"
+}

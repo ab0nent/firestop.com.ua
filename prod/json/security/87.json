@@ -1,1 +1,9 @@
-{"id":87,"name":"Корпус Satel OPU-4 P","image":"img/security/img_204.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  87,
+    "name":  "Корпус Satel OPU-4 P",
+    "image":  "img/security/img_204.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

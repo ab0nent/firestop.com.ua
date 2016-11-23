@@ -1,1 +1,20 @@
-{"id":41,"name":"Радиобрелок Satel T-4","image":"img/security/img_242.jpg","productDetails":[{"Name":"Число канало","Value":"4"},{"Name":"Тип батареи брелок","Value":"23A 12В"},{"Name":"Габаритные размеры брелок","Value":"35 x 70 x 15 мм"}],"manufacturer":"Satel"}
+{
+    "id":  41,
+    "name":  "Радиобрелок Satel T-4",
+    "image":  "img/security/img_242.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Число канало",
+                               "Value":  "4"
+                           },
+                           {
+                               "Name":  "Тип батареи брелок",
+                               "Value":  "23A 12В"
+                           },
+                           {
+                               "Name":  "Габаритные размеры брелок",
+                               "Value":  "35 x 70 x 15 мм"
+                           }
+                       ],
+    "manufacturer":  "Satel"
+}

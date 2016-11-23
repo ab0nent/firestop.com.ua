@@ -1,1 +1,28 @@
-{"id":304,"name":"Конвертер TCP/IP Satel SMET-256","image":"img/security/img_227.jpg","productDetails":[{"Name":"Напряжение питания (±15%","Value":"12 В DC"},{"Name":"Максимальное потребление ток","Value":"750 м"},{"Name":"Класс сред","Value":"I "},{"Name":"Диапазон рабочих температу","Value":"-10…+55 °"},{"Name":"Габаритные размеры платы электроник","Value":"125 x 114,5 x 31 мм"}],"manufacturer":"Satel"}
+{
+    "id":  304,
+    "name":  "Конвертер TCP/IP Satel SMET-256",
+    "image":  "img/security/img_227.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Напряжение питания (±15%",
+                               "Value":  "12 В DC"
+                           },
+                           {
+                               "Name":  "Максимальное потребление ток",
+                               "Value":  "750 м"
+                           },
+                           {
+                               "Name":  "Класс сред",
+                               "Value":  "I "
+                           },
+                           {
+                               "Name":  "Диапазон рабочих температу",
+                               "Value":  "-10…+55 °"
+                           },
+                           {
+                               "Name":  "Габаритные размеры платы электроник",
+                               "Value":  "125 x 114,5 x 31 мм"
+                           }
+                       ],
+    "manufacturer":  "Satel"
+}

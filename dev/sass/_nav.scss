@@ -7,6 +7,8 @@
   display: inline-block;
 }
 
+
+
 .menu__link{
   display: block;
   height: 48px;
@@ -17,8 +19,16 @@
   transition: 0.5s all;
 }
 
+
+
 .menu__link:hover{
   color: #000000;
   background-color: #f0f0f0;
   transition: 0.5s all;
+}
+
+.menu__item_active .menu__link{
+  color: #ff0000;
+  transition: 0.5s all;
+  font-weight: 500;
 }

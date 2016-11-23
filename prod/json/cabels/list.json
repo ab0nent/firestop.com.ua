@@ -1,1 +1,218 @@
-[{"id":0,"name":"VidiTech VP-1","image":"img/cabels/img_20.jpg","manufacturer":"VidiTech"},{"id":1,"name":"VidiTech DJK-11A","image":"img/cabels/img_19.jpg","manufacturer":"VidiTech"},{"id":2,"name":"VidiTech VP-2","image":"img/cabels/img_22.jpg","manufacturer":"VidiTech"},{"id":3,"name":"VidiTech BNC-K","image":"img/cabels/img_8.jpg","manufacturer":"VidiTech"},{"id":4,"name":"VidiTech BNC-FFM","image":"img/cabels/img_5.jpg","manufacturer":"VidiTech"},{"id":5,"name":"VidiTech BNC+F","image":"img/cabels/img_4.jpg","manufacturer":"VidiTech"},{"id":6,"name":"VidiTech BNC-RCA","image":"img/cabels/img_7.jpg","manufacturer":"VidiTech"},{"id":7,"name":"VidiTech BNC","image":"img/cabels/img_6.jpg","manufacturer":"VidiTech"},{"id":8,"name":"VidiTech BNC-RG59","image":"img/cabels/img_2.jpg","manufacturer":"VidiTech"},{"id":9,"name":"FinMark F5967BV (100 м)","image":"img/cabels/img_10.jpg","manufacturer":"FinMark"},{"id":10,"name":"Avigard Alarm 4x0.22 мм экран","image":"img/cabels/img_3.jpg","manufacturer":"Avigard"},{"id":11,"name":"FinMark F690BV (100 м)","image":"img/cabels/img_9.jpg","manufacturer":"FinMark"},{"id":12,"name":"FinMark F5967BV (Cu) (100 м)","image":"img/cabels/img_10.jpg","manufacturer":"FinMark"},{"id":13,"name":"Avigard ШВВП - 2 х 0.75 мм","image":"img/cabels/img_15.jpg","manufacturer":"Avigard"},{"id":14,"name":"FinMark F660BV","image":"img/cabels/img_9.jpg","manufacturer":"FinMark"},{"id":15,"name":"Avigard UTP CAT.5Е внутренний","image":"img/cabels/img_18.jpg","manufacturer":"Avigard"},{"id":16,"name":"FinMark F5967BV","image":"img/cabels/img_10.jpg","manufacturer":"FinMark"},{"id":17,"name":"FinMark F690BV (305м)","image":"img/cabels/img_9.jpg","manufacturer":"FinMark"},{"id":18,"name":"FinMark F5967BV (Cu)","image":"img/cabels/img_10.jpg","manufacturer":"FinMark"},{"id":19,"name":"Avigard UTP CAT.5Е (Cu) внутренний","image":"img/cabels/img_18.jpg","manufacturer":"Avigard"},{"id":20,"name":"Finmark UTP CAT5e PVC (Cu) внутренний","image":"img/cabels/img_1.jpg","manufacturer":"FinMark"},{"id":21,"name":"FinMark F690BV (Cu) (305м)","image":"img/cabels/img_9.jpg","manufacturer":"FinMark"},{"id":22,"name":"Finmark UTP CAT5e PE (Cu) наружный","image":"img/cabels/img_0.jpg","manufacturer":"FinMark"},{"id":23,"name":"FinMark F690BVM (Cu)","image":"img/cabels/img_14.jpg","manufacturer":"FinMark"},{"id":24,"name":"Finmark FTP CAT5e PVC (Cu) внутренний экранированный","image":"img/cabels/img_11.jpg","manufacturer":"FinMark"},{"id":25,"name":"Finmark FTP CAT5e PE (Cu) наружный экранированный","image":"img/cabels/img_13.jpg","manufacturer":"FinMark"},{"id":26,"name":"Finmark UTP CAT5e PE-M (Cu) наружный самонесущий","image":"img/cabels/img_21.jpg","manufacturer":"FinMark"},{"id":27,"name":"FinMark F690B - 2 x 0.75 мм","image":"img/cabels/img_17.jpg","manufacturer":"FinMark"},{"id":28,"name":"Finmark FTP CAT5e PE-M (Cu) наружный экранированный самонесущий","image":"img/cabels/img_12.jpg","manufacturer":"FinMark"},{"id":29,"name":"Finmark UTP CAT5e PE (Cu) (500 м) наружный","image":"img/cabels/img_0.jpg","manufacturer":"FinMark"},{"id":30,"name":"FinMark F690B (Cu) - 2 x 0.75 мм","image":"img/cabels/img_17.jpg","manufacturer":"FinMark"},{"id":31,"name":"FinMark F690B PVC - 2 x 0.75 мм","image":"img/cabels/img_16.jpg","manufacturer":"FinMark"},{"id":32,"name":"FinMark F690B PVC (Cu) - 2 x 0.75 мм","image":"img/cabels/img_16.jpg","manufacturer":"FinMark"},{"id":33,"name":"Finmark FTP CAT5e PE (Cu) (500 м) наружный экранированный","image":"img/cabels/img_13.jpg","manufacturer":"FinMark"},{"id":34,"name":"Finmark UTP CAT5e PE-M (Cu) (500 м) наружный самонесущий","image":"img/cabels/img_21.jpg","manufacturer":"FinMark"},{"id":35,"name":"Finmark FTP CAT5e PE-M (Cu) (500 м) наружный экранированный самонесущий","image":"img/cabels/img_12.jpg","manufacturer":"FinMark"}]
+[
+    {
+        "id":  0,
+        "name":  "VidiTech VP-1",
+        "image":  "img/cabels/img_20.jpg",
+        "manufacturer":  "VidiTech"
+    },
+    {
+        "id":  1,
+        "name":  "VidiTech DJK-11A",
+        "image":  "img/cabels/img_19.jpg",
+        "manufacturer":  "VidiTech"
+    },
+    {
+        "id":  2,
+        "name":  "VidiTech VP-2",
+        "image":  "img/cabels/img_22.jpg",
+        "manufacturer":  "VidiTech"
+    },
+    {
+        "id":  3,
+        "name":  "VidiTech BNC-K",
+        "image":  "img/cabels/img_8.jpg",
+        "manufacturer":  "VidiTech"
+    },
+    {
+        "id":  4,
+        "name":  "VidiTech BNC-FFM",
+        "image":  "img/cabels/img_5.jpg",
+        "manufacturer":  "VidiTech"
+    },
+    {
+        "id":  5,
+        "name":  "VidiTech BNC+F",
+        "image":  "img/cabels/img_4.jpg",
+        "manufacturer":  "VidiTech"
+    },
+    {
+        "id":  6,
+        "name":  "VidiTech BNC-RCA",
+        "image":  "img/cabels/img_7.jpg",
+        "manufacturer":  "VidiTech"
+    },
+    {
+        "id":  7,
+        "name":  "VidiTech BNC",
+        "image":  "img/cabels/img_6.jpg",
+        "manufacturer":  "VidiTech"
+    },
+    {
+        "id":  8,
+        "name":  "VidiTech BNC-RG59",
+        "image":  "img/cabels/img_2.jpg",
+        "manufacturer":  "VidiTech"
+    },
+    {
+        "id":  9,
+        "name":  "FinMark F5967BV (100 м)",
+        "image":  "img/cabels/img_10.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  10,
+        "name":  "Avigard Alarm 4x0.22 мм экран",
+        "image":  "img/cabels/img_3.jpg",
+        "manufacturer":  "Avigard"
+    },
+    {
+        "id":  11,
+        "name":  "FinMark F690BV (100 м)",
+        "image":  "img/cabels/img_9.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  12,
+        "name":  "FinMark F5967BV (Cu) (100 м)",
+        "image":  "img/cabels/img_10.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  13,
+        "name":  "Avigard ШВВП - 2 х 0.75 мм",
+        "image":  "img/cabels/img_15.jpg",
+        "manufacturer":  "Avigard"
+    },
+    {
+        "id":  14,
+        "name":  "FinMark F660BV",
+        "image":  "img/cabels/img_9.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  15,
+        "name":  "Avigard UTP CAT.5Е внутренний",
+        "image":  "img/cabels/img_18.jpg",
+        "manufacturer":  "Avigard"
+    },
+    {
+        "id":  16,
+        "name":  "FinMark F5967BV",
+        "image":  "img/cabels/img_10.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  17,
+        "name":  "FinMark F690BV (305м)",
+        "image":  "img/cabels/img_9.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  18,
+        "name":  "FinMark F5967BV (Cu)",
+        "image":  "img/cabels/img_10.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  19,
+        "name":  "Avigard UTP CAT.5Е (Cu) внутренний",
+        "image":  "img/cabels/img_18.jpg",
+        "manufacturer":  "Avigard"
+    },
+    {
+        "id":  20,
+        "name":  "Finmark UTP CAT5e PVC (Cu) внутренний",
+        "image":  "img/cabels/img_1.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  21,
+        "name":  "FinMark F690BV (Cu) (305м)",
+        "image":  "img/cabels/img_9.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  22,
+        "name":  "Finmark UTP CAT5e PE (Cu) наружный",
+        "image":  "img/cabels/img_0.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  23,
+        "name":  "FinMark F690BVM (Cu)",
+        "image":  "img/cabels/img_14.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  24,
+        "name":  "Finmark FTP CAT5e PVC (Cu) внутренний экранированный",
+        "image":  "img/cabels/img_11.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  25,
+        "name":  "Finmark FTP CAT5e PE (Cu) наружный экранированный",
+        "image":  "img/cabels/img_13.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  26,
+        "name":  "Finmark UTP CAT5e PE-M (Cu) наружный самонесущий",
+        "image":  "img/cabels/img_21.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  27,
+        "name":  "FinMark F690B - 2 x 0.75 мм",
+        "image":  "img/cabels/img_17.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  28,
+        "name":  "Finmark FTP CAT5e PE-M (Cu) наружный экранированный самонесущий",
+        "image":  "img/cabels/img_12.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  29,
+        "name":  "Finmark UTP CAT5e PE (Cu) (500 м) наружный",
+        "image":  "img/cabels/img_0.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  30,
+        "name":  "FinMark F690B (Cu) - 2 x 0.75 мм",
+        "image":  "img/cabels/img_17.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  31,
+        "name":  "FinMark F690B PVC - 2 x 0.75 мм",
+        "image":  "img/cabels/img_16.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  32,
+        "name":  "FinMark F690B PVC (Cu) - 2 x 0.75 мм",
+        "image":  "img/cabels/img_16.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  33,
+        "name":  "Finmark FTP CAT5e PE (Cu) (500 м) наружный экранированный",
+        "image":  "img/cabels/img_13.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  34,
+        "name":  "Finmark UTP CAT5e PE-M (Cu) (500 м) наружный самонесущий",
+        "image":  "img/cabels/img_21.jpg",
+        "manufacturer":  "FinMark"
+    },
+    {
+        "id":  35,
+        "name":  "Finmark FTP CAT5e PE-M (Cu) (500 м) наружный экранированный самонесущий",
+        "image":  "img/cabels/img_12.jpg",
+        "manufacturer":  "FinMark"
+    }
+]

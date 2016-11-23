@@ -1,1 +1,16 @@
-{"id":6,"name":"VidiTech BNC-RCA","image":"img/cabels/img_7.jpg","productDetails":[{"Name":"Размеры","Value":"15 х 15 х 28 мм"},{"Name":"Вес","Value":"0.05 кг"}],"manufacturer":"VidiTech"}
+{
+    "id":  6,
+    "name":  "VidiTech BNC-RCA",
+    "image":  "img/cabels/img_7.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Размеры",
+                               "Value":  "15 х 15 х 28 мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "0.05 кг"
+                           }
+                       ],
+    "manufacturer":  "VidiTech"
+}

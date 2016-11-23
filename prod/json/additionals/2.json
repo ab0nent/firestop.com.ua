@@ -1,1 +1,9 @@
-{"id":2,"name":"Купол AVG KM100","image":"img/additionals/img_21.jpg","productDetails":[],"manufacturer":"AVG"}
+{
+    "id":  2,
+    "name":  "Купол AVG KM100",
+    "image":  "img/additionals/img_21.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "AVG"
+}

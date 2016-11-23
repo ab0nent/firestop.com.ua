@@ -1,1 +1,28 @@
-{"id":28,"name":"Жесткий диск 3Тб WD30PURX","image":"img/additionals/img_54.jpg","productDetails":[{"Name":"Интерфей","Value":"SATA 6 Гб/с"},{"Name":"Форм-факто","Value":"3,5 дюйма"},{"Name":"Оборотов в минут","Value":"IntelliPower"},{"Name":"Емкост","Value":"3 ТБ"},{"Name":"Кэш","Value":"64 МБ"}],"manufacturer":"Western Digital"}
+{
+    "id":  28,
+    "name":  "Жесткий диск 3Тб WD30PURX",
+    "image":  "img/additionals/img_54.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Интерфей",
+                               "Value":  "SATA 6 Гб/с"
+                           },
+                           {
+                               "Name":  "Форм-факто",
+                               "Value":  "3,5 дюйма"
+                           },
+                           {
+                               "Name":  "Оборотов в минут",
+                               "Value":  "IntelliPower"
+                           },
+                           {
+                               "Name":  "Емкост",
+                               "Value":  "3 ТБ"
+                           },
+                           {
+                               "Name":  "Кэш",
+                               "Value":  "64 МБ"
+                           }
+                       ],
+    "manufacturer":  "Western Digital"
+}

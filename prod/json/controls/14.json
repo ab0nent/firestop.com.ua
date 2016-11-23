@@ -1,1 +1,196 @@
-{"id":14,"name":"GeoVision GV-CR420","image":"img/controls/img_30.jpg","productDetails":[{"Name":"Матрица","Value":"1/2.5\" CMOS с системой прогрессивного сканирования"},{"Name":"Разрешение","Value":"2048 x 1944 пикселей"},{"Name":"Светочувствительность","Value":"4 - 2 люкс"},{"Name":"Минимальная светочувствительность для определения лиц","Value":"41 - 50 люкс"},{"Name":"Скорость затвора","Value":"авто / настраиваемая (1/5 ~ 1/8000 сек)"},{"Name":"Мегапиксельный","Value":"да"},{"Name":"День / Ночь","Value":"д"},{"Name":"Тип объектива","Value":"фиксированный"},{"Name":"Фокусное расстояние","Value":"1.05 мм"},{"Name":"Максимальная апертура","Value":"F / 2.8"},{"Name":"Крепление","Value":"M12 / шаг 0.5 мм"},{"Name":"Диафрагма","Value":"фиксированная"},{"Name":"Кодеки","Value":"H.264 / MPEG4 / MJPEG"},{"Name":"Поток 1","Value":"H.264 / MJPEG"},{"Name":"Поток 2","Value":"H.264 / MPEG4 / MJPEG"},{"Name":"Разрешение","Value":"2048 x 1944 пикселей"},{"Name":"Скорость","Value":"15 кад/с при 2048 x 1944"},{"Name":"Настройка изображения","Value":"яркость / контрастность / резкость / насыщенность / гамма / баланс белого и т. д."},{"Name":"Аудиокодеки","Value":"G.711 / AAC"},{"Name":"Интерфейс","Value":"10/100 Ethernet"},{"Name":"Протоколы","Value":"HTTP / HTTPS / TCP / UDP / SMTP / FTP / DHCP / NTP / UPnP / DynDNS / RTSP / PSIA / SNMP / QoS (DSCP)"},{"Name":"Питание","Value":"2-пинная клеммная колодка"},{"Name":"Ethernet","Value":"Ethernet (10/100 Base-T) / RJ-45"},{"Name":"RS485","Value":"2-пинная клеммная колодка"},{"Name":"Wiegand","Value":"2-пинная клеммная колодка"},{"Name":"Аудио","Value":"встроенный микрофон и динамик"},{"Name":"Процессор","Value":"8-битный микропроцессор"},{"Name":"Частота","Value":"13.56 МГц для карт ISO14443A"},{"Name":"Интерфейс Wiegand","Value":"Wiegand 26-бит"},{"Name":"RS485","Value":"есть"},{"Name":"Световая индикация","Value":"красный, зеленый и синий светодио"},{"Name":"Звуковая индикация","Value":"зуммер"},{"Name":"Рабочая температура","Value":"0°C ~ 40 °C"},{"Name":"Влажность","Value":"10% - 90%"},{"Name":"Питание","Value":"12 В DC / 0.35 А"},{"Name":"Максимальная мощность","Value":"15 Вт"},{"Name":"Сертификация","Value":"CE / FCC / C-Tick / RoHS"},{"Name":"Габариты","Value":"134.6 x 42.5 x 65.8 мм"},{"Name":"Вес","Value":"0.17 кг"},{"Name":"Инсталляция","Value":"Web-интерфейс"},{"Name":"Обновление","Value":"через вэб-браузер или утилиту"},{"Name":"Доступ через вэб-браузер","Value":"реал-тайм / видеозапись / смена качества видео и т. д."},{"Name":"Язык","Value":"Bulgarian / Czech / Danish / Dutch / English / French / German / / Greek / Hebrew / Hungarian / Italian / Indonesian / Japanese / Norwegian / Lithuanian / Persian / Polish / Portuguese / Romanian / Russian / Serbian / Simplified Chinese / Slovakian / Slovenian / Spanish / Thai / Traditional Chinese / Turkish"},{"Name":"Сетевое хранилище","Value":"GV-NVR / GV-System / GV-Recording Server"},{"Name":"Мобильный телефон","Value":"GV-Eye / GV-Eye HD для iPhone iPod Touch и iPad, GV-Eye для Android"},{"Name":"Реал-тайм","Value":"IE, GV-Multi View"},{"Name":"CMS-сервер","Value":"GV-Control Center / GV-Center V2 / GV-VSM"}],"manufacturer":"GeoVision"}
+{
+    "id":  14,
+    "name":  "GeoVision GV-CR420",
+    "image":  "img/controls/img_30.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Матрица",
+                               "Value":  "1/2.5\" CMOS с системой прогрессивного сканирования"
+                           },
+                           {
+                               "Name":  "Разрешение",
+                               "Value":  "2048 x 1944 пикселей"
+                           },
+                           {
+                               "Name":  "Светочувствительность",
+                               "Value":  "4 - 2 люкс"
+                           },
+                           {
+                               "Name":  "Минимальная светочувствительность для определения лиц",
+                               "Value":  "41 - 50 люкс"
+                           },
+                           {
+                               "Name":  "Скорость затвора",
+                               "Value":  "авто / настраиваемая (1/5 ~ 1/8000 сек)"
+                           },
+                           {
+                               "Name":  "Мегапиксельный",
+                               "Value":  "да"
+                           },
+                           {
+                               "Name":  "День / Ночь",
+                               "Value":  "д"
+                           },
+                           {
+                               "Name":  "Тип объектива",
+                               "Value":  "фиксированный"
+                           },
+                           {
+                               "Name":  "Фокусное расстояние",
+                               "Value":  "1.05 мм"
+                           },
+                           {
+                               "Name":  "Максимальная апертура",
+                               "Value":  "F / 2.8"
+                           },
+                           {
+                               "Name":  "Крепление",
+                               "Value":  "M12 / шаг 0.5 мм"
+                           },
+                           {
+                               "Name":  "Диафрагма",
+                               "Value":  "фиксированная"
+                           },
+                           {
+                               "Name":  "Кодеки",
+                               "Value":  "H.264 / MPEG4 / MJPEG"
+                           },
+                           {
+                               "Name":  "Поток 1",
+                               "Value":  "H.264 / MJPEG"
+                           },
+                           {
+                               "Name":  "Поток 2",
+                               "Value":  "H.264 / MPEG4 / MJPEG"
+                           },
+                           {
+                               "Name":  "Разрешение",
+                               "Value":  "2048 x 1944 пикселей"
+                           },
+                           {
+                               "Name":  "Скорость",
+                               "Value":  "15 кад/с при 2048 x 1944"
+                           },
+                           {
+                               "Name":  "Настройка изображения",
+                               "Value":  "яркость / контрастность / резкость / насыщенность / гамма / баланс белого и т. д."
+                           },
+                           {
+                               "Name":  "Аудиокодеки",
+                               "Value":  "G.711 / AAC"
+                           },
+                           {
+                               "Name":  "Интерфейс",
+                               "Value":  "10/100 Ethernet"
+                           },
+                           {
+                               "Name":  "Протоколы",
+                               "Value":  "HTTP / HTTPS / TCP / UDP / SMTP / FTP / DHCP / NTP / UPnP / DynDNS / RTSP / PSIA / SNMP / QoS (DSCP)"
+                           },
+                           {
+                               "Name":  "Питание",
+                               "Value":  "2-пинная клеммная колодка"
+                           },
+                           {
+                               "Name":  "Ethernet",
+                               "Value":  "Ethernet (10/100 Base-T) / RJ-45"
+                           },
+                           {
+                               "Name":  "RS485",
+                               "Value":  "2-пинная клеммная колодка"
+                           },
+                           {
+                               "Name":  "Wiegand",
+                               "Value":  "2-пинная клеммная колодка"
+                           },
+                           {
+                               "Name":  "Аудио",
+                               "Value":  "встроенный микрофон и динамик"
+                           },
+                           {
+                               "Name":  "Процессор",
+                               "Value":  "8-битный микропроцессор"
+                           },
+                           {
+                               "Name":  "Частота",
+                               "Value":  "13.56 МГц для карт ISO14443A"
+                           },
+                           {
+                               "Name":  "Интерфейс Wiegand",
+                               "Value":  "Wiegand 26-бит"
+                           },
+                           {
+                               "Name":  "RS485",
+                               "Value":  "есть"
+                           },
+                           {
+                               "Name":  "Световая индикация",
+                               "Value":  "красный, зеленый и синий светодио"
+                           },
+                           {
+                               "Name":  "Звуковая индикация",
+                               "Value":  "зуммер"
+                           },
+                           {
+                               "Name":  "Рабочая температура",
+                               "Value":  "0°C ~ 40 °C"
+                           },
+                           {
+                               "Name":  "Влажность",
+                               "Value":  "10% - 90%"
+                           },
+                           {
+                               "Name":  "Питание",
+                               "Value":  "12 В DC / 0.35 А"
+                           },
+                           {
+                               "Name":  "Максимальная мощность",
+                               "Value":  "15 Вт"
+                           },
+                           {
+                               "Name":  "Сертификация",
+                               "Value":  "CE / FCC / C-Tick / RoHS"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "134.6 x 42.5 x 65.8 мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "0.17 кг"
+                           },
+                           {
+                               "Name":  "Инсталляция",
+                               "Value":  "Web-интерфейс"
+                           },
+                           {
+                               "Name":  "Обновление",
+                               "Value":  "через вэб-браузер или утилиту"
+                           },
+                           {
+                               "Name":  "Доступ через вэб-браузер",
+                               "Value":  "реал-тайм / видеозапись / смена качества видео и т. д."
+                           },
+                           {
+                               "Name":  "Язык",
+                               "Value":  "Bulgarian / Czech / Danish / Dutch / English / French / German / / Greek / Hebrew / Hungarian / Italian / Indonesian / Japanese / Norwegian / Lithuanian / Persian / Polish / Portuguese / Romanian / Russian / Serbian / Simplified Chinese / Slovakian / Slovenian / Spanish / Thai / Traditional Chinese / Turkish"
+                           },
+                           {
+                               "Name":  "Сетевое хранилище",
+                               "Value":  "GV-NVR / GV-System / GV-Recording Server"
+                           },
+                           {
+                               "Name":  "Мобильный телефон",
+                               "Value":  "GV-Eye / GV-Eye HD для iPhone iPod Touch и iPad, GV-Eye для Android"
+                           },
+                           {
+                               "Name":  "Реал-тайм",
+                               "Value":  "IE, GV-Multi View"
+                           },
+                           {
+                               "Name":  "CMS-сервер",
+                               "Value":  "GV-Control Center / GV-Center V2 / GV-VSM"
+                           }
+                       ],
+    "manufacturer":  "GeoVision"
+}

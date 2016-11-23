@@ -1,1 +1,32 @@
-{"id":8,"name":"Блок питания Satel APS-15 BO","image":"img/akb/img_7.jpg","productDetails":[{"Name":"Тип","Value":"импульсный блок питания"},{"Name":"Выходное напряжение","Value":"12 В"},{"Name":"Выходная сила тока","Value":"1,5 A"},{"Name":"Входное напряжение","Value":"230 В A"},{"Name":"Габариты","Value":"170 x 270 x 81 мм"},{"Name":"Вес","Value":"2250 г"}],"manufacturer":"Satel"}
+{
+    "id":  8,
+    "name":  "Блок питания Satel APS-15 BO",
+    "image":  "img/akb/img_7.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Тип",
+                               "Value":  "импульсный блок питания"
+                           },
+                           {
+                               "Name":  "Выходное напряжение",
+                               "Value":  "12 В"
+                           },
+                           {
+                               "Name":  "Выходная сила тока",
+                               "Value":  "1,5 A"
+                           },
+                           {
+                               "Name":  "Входное напряжение",
+                               "Value":  "230 В A"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "170 x 270 x 81 мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "2250 г"
+                           }
+                       ],
+    "manufacturer":  "Satel"
+}

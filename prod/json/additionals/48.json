@@ -1,1 +1,9 @@
-{"id":48,"name":"Dahua Technology NKB","image":"img/additionals/img_42.jpg","productDetails":[],"manufacturer":"Dahua"}
+{
+    "id":  48,
+    "name":  "Dahua Technology NKB",
+    "image":  "img/additionals/img_42.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Dahua"
+}
