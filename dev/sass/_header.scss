@@ -7,7 +7,7 @@ header{
   right: 0;
 }
 
-.logo-icon{
+.logo__icon{
   display: block;
   margin: 4px;
   float: left;
@@ -23,13 +23,13 @@ header{
 }
 
 
-.logo-name{
+.logo__name{
   line-height: 48px;
   font-size: 28px;
   color: #000000;
 }
 
-.logo-name span{
+.logo__name span{
   color: red;
 }
 
@@ -40,7 +40,7 @@ header{
   color: #ffffff;
 }
 
-.btnMobileMenu{
+.btn-mobile-menu{
   float: right;
 }
 

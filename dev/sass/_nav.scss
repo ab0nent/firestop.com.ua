@@ -3,11 +3,11 @@
   border: none;
 }
 
-.menu-item{
+.menu__item{
   display: inline-block;
 }
 
-.menu-item-link{
+.menu__link{
   display: block;
   height: 48px;
   line-height: 48px;
@@ -17,7 +17,7 @@
   transition: 0.5s all;
 }
 
-.menu-item-link:hover{
+.menu__link:hover{
   color: #000000;
   background-color: #f0f0f0;
   transition: 0.5s all;

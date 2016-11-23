@@ -21,20 +21,20 @@
     <header>
         <md-content ng-cloak="">
 
-            <a href="#" class="logo"><span class="logo-icon">FS</span><span class="logo-name">FIRE<span>STOP</span></span></a>
+            <a href="#" class="logo"><span class="logo__icon">FS</span><span class="logo__name">FIRE<span>STOP</span></span></a>
 
             <ul class="menu" hide-xs>
-                <li class="menu-item"><a href="#/main" class="menu-item-link">ГЛАВНАЯ</a></li>
-                <li class="menu-item"><a href="#/products" class="menu-item-link">ОБОРУДОВАНИЕ</a></li>
-                <li class="menu-item"><a href="#/contacts" class="menu-item-link">КОНТАКТЫ</a></li>
+                <li class="menu__item"><a href="#/main" class="menu__link">ГЛАВНАЯ</a></li>
+                <li class="menu__item"><a href="#/products" class="menu__link">ОБОРУДОВАНИЕ</a></li>
+                <li class="menu__item"><a href="#/contacts" class="menu__link">КОНТАКТЫ</a></li>
             </ul>
 
 
             <md-menu md-position-mode="target-right target" hide show-xs ng-controller="MobileMenuCtrl as ctrl" flex>
-                <md-button aria-label="Open menu" class="btnMobileMenu md-icon-button" ng-click="$mdOpenMenu($event)">
+                <md-button aria-label="Open menu" class="btn-mobile-menu md-icon-button" ng-click="$mdOpenMenu($event)">
                     <md-icon md-svg-src="/img/ic_menu_black_24px.svg" aria-label="android "></md-icon>
                 </md-button>
-                <md-menu-content width="4">
+                <md-menu-content width="4" class="mobile-menu">
                     <md-menu-item ng-repeat="item in ctrl.menuItems">
                         <md-button ng-click="ctrl.mobileMenuClick(item)">
                             <div layout="row" flex>

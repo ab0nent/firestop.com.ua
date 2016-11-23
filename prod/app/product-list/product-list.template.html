@@ -47,9 +47,7 @@
                 Оборудования на странице (доступно {{$ctrl.products.length}}):</label>
             <input type="number" step="1" ng-model="$ctrl.numLimit" min="1" max="{{$ctrl.products.length}}">
         </md-input-container>
-        <md-button class="btnShowMore" ng-click="$ctrl.showMore()">Показать еще 10</md-button>
-
-
+        <md-button class="btn-show-more" ng-click="$ctrl.showMore()">Показать еще 10</md-button>
     </div>
 
     <md-content class="product-list">

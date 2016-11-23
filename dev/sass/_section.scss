@@ -28,18 +28,20 @@ ul{
 
 .product-list {
   margin: 0 0 0 20%;
-
+  padding: 10px;
+  width: 100%;
 }
 
 .filters {
-  width: 20%;
+  width: 19%;
   position: fixed;
   top: 48px;
   left: 0;
   z-index: 2;
+  padding-left: 1%;
 }
 
-.company-about {
+.about-title {
   height: 500px;
   width: 100%;
   background: url("../img/bg.jpg") no-repeat fixed center;
@@ -47,7 +49,7 @@ ul{
   text-align: center;
 }
 
-.company-about div {
+.about-title div {
   padding-top: 200px;
   font-size: 54px;
   font-weight: bold;
@@ -70,29 +72,29 @@ md-list-item {
   margin-top: 3px;
 }
 
-.btnShowMore {
 
-  //width: 100%;
+
+.btn-show-more {
   background-color: rgb(240, 240, 240);
 }
 
-.company-services{
+.services-list{
   text-align: center;
   padding: 50px 0;
 }
 
-.company-services-item{
+.services-list__item{
   display: inline-block;
   margin: 20px;
   width: 210px;
 }
 
-.company-services-item img {
+.services-list__item img {
   width: 70px;
   height: 70px;
 }
 
-.company-services span {
+.services-list span {
   color: #455a64;
   font-size: 50px;
   font-weight: bold;
@@ -103,18 +105,18 @@ md-list-item {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
 }
 
-.company-products{
+.products-link{
   float: left;
   background: url("../img/sec.jpg") no-repeat center;
 
 }
 
-.company-contacts{
+.contacts-link{
   float: right;
   background: url("../img/Contacts.jpg") no-repeat center;
 }
 
-.company-products, .company-contacts {
+.products-link, .contacts-link {
   background-size: cover;
   text-align: center;
   height: 400px;
@@ -131,20 +133,19 @@ md-list-item {
 }
 
 .contacts-list{
-  //margin-top: 10px;
   text-align: center;
   float: left;
   width: 50%;
 }
 
-.contacts-list-item{
+.contacts-list__item{
   margin-bottom: 30px;
 }
-.contacts-list-item h3{
+.contacts-list__item h3{
   font-size: 30px;
 }
 
-.contacts-list-item p{
+.contacts-list__item p{
   font-size: 20px;
 }
 
@@ -175,15 +176,14 @@ md-list-item {
 
   .payment, .delivery{
     width: 100%;
-
   }
 
-  .company-about div {
+  .about-title div {
     padding-top: 150px;
 
   }
 
-  .company-products, .company-contacts {
+  .products-link, .contacts-link {
     font-size: 35px;
   }
 }
@@ -214,12 +214,12 @@ md-list-item {
     margin: 0 0 0 40%;
   }
 
-  .company-about div {
+  .about-title div {
     padding-top: 150px;
     font-size: 40px;
   }
 
-  .company-products, .company-contacts {
+  .products-link, .contacts-link {
     width: 100%;
   }
 }

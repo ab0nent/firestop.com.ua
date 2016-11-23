@@ -2,7 +2,7 @@ angular
     .module('MobileMenu', ['ngMaterial'])
     .controller('MobileMenuCtrl', function MobileNavCtrl($location) {
         this.menuItems = ['ГЛАВНАЯ', 'ОБОРУДОВАНИЕ', 'КОНТАКТЫ'];
-
+        scrollTop();
         this.mobileMenuClick = function (item) {
             switch(item){
                 case 'ГЛАВНАЯ':

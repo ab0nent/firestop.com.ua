@@ -21,7 +21,7 @@ angular.
             self.getManufacturer = getManufacturer;
 
             function goToProduct(product) {
-                ScrollTop();
+                scrollTop();
                 var productUrl = '/products/' + self.productType + '/' + product.id;
                 $location.path(productUrl);
             }

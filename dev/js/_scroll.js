@@ -5,10 +5,12 @@
 
 var menu = document.querySelector('.menu');
 var logo = document.querySelector('.logo');
+var mobileMenu = document.querySelector('.mobile-menu');
 
-menu.addEventListener('click', ScrollTop);
-logo.addEventListener('click', ScrollTop);
+menu.addEventListener('click', scrollTop);
+logo.addEventListener('click', scrollTop);
+mobileMenu.addEventListener('click', scrollTop);
 
-function ScrollTop() {
-    setTimeout(function(){window.scrollTo(0,0);}, 1);
+function scrollTop() {
+    setTimeout(function(){window.scrollTo(0,0);}, 100);
 }
