@@ -1,12 +1,1 @@
-{
-    "id":  60,
-    "name":  "Кронштейн Hikvision DS-1258ZJ",
-    "image":  "img/additionals/img_18.jpg",
-    "productDetails":  [
-                           {
-                               "Name":  "Материал",
-                               "Value":  "пластик"
-                           }
-                       ],
-    "manufacturer":  "Hikvision"
-}
+{"id":60,"name":"Кронштейн Hikvision DS-1258ZJ","image":"img/additionals/img_18.jpg","productDetails":[{"Name":"Материал","Value":"пластик"}],"manufacturer":"Hikvision"}

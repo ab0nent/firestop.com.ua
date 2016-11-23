@@ -1,9 +1,1 @@
-{
-    "id":  61,
-    "name":  "Кабель RS-232 Satel DB9FC/RJ",
-    "image":  "img/security/img_77.jpg",
-    "productDetails":  [
-
-                       ],
-    "manufacturer":  "Satel"
-}
+{"id":61,"name":"Кабель RS-232 Satel DB9FC/RJ","image":"img/security/img_77.jpg","productDetails":[],"manufacturer":"Satel"}

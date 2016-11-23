@@ -1,9 +1,1 @@
-{
-    "id":  4,
-    "name":  "AVG UTC-контроллер",
-    "image":  "img/additionals/img_49.jpg",
-    "productDetails":  [
-
-                       ],
-    "manufacturer":  "AVG"
-}
+{"id":4,"name":"AVG UTC-контроллер","image":"img/additionals/img_49.jpg","productDetails":[],"manufacturer":"AVG"}

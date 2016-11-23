@@ -1,16 +1,1 @@
-{
-    "id":  53,
-    "name":  "Кронштейн Hikvision DS-1292ZJ",
-    "image":  "img/additionals/img_40.jpg",
-    "productDetails":  [
-                           {
-                               "Name":  "Материал",
-                               "Value":  "алюминий"
-                           },
-                           {
-                               "Name":  "Габариты",
-                               "Value":  "70х97х217 мм"
-                           }
-                       ],
-    "manufacturer":  "Hikvision"
-}
+{"id":53,"name":"Кронштейн Hikvision DS-1292ZJ","image":"img/additionals/img_40.jpg","productDetails":[{"Name":"Материал","Value":"алюминий"},{"Name":"Габариты","Value":"70х97х217 мм"}],"manufacturer":"Hikvision"}

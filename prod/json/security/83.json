@@ -1,9 +1,1 @@
-{
-    "id":  83,
-    "name":  "Трансформатор Satel TR 60 VA",
-    "image":  "img/security/img_245.jpg",
-    "productDetails":  [
-
-                       ],
-    "manufacturer":  "Satel"
-}
+{"id":83,"name":"Трансформатор Satel TR 60 VA","image":"img/security/img_245.jpg","productDetails":[],"manufacturer":"Satel"}

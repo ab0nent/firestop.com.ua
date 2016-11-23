@@ -1,9 +1,1 @@
-{
-    "id":  34,
-    "name":  "Корпус Satel OPU-1 B",
-    "image":  "img/security/img_202.jpg",
-    "productDetails":  [
-
-                       ],
-    "manufacturer":  "Satel"
-}
+{"id":34,"name":"Корпус Satel OPU-1 B","image":"img/security/img_202.jpg","productDetails":[],"manufacturer":"Satel"}

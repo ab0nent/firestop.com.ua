@@ -1,12 +1,1 @@
-{
-    "id":  44,
-    "name":  "Адресующий модуль Satel CA-64 ADR-MOD",
-    "image":  "img/security/img_67.jpg",
-    "productDetails":  [
-                           {
-                               "Name":  "Потребление тока в режиме готовност",
-                               "Value":  "1,2 мА"
-                           }
-                       ],
-    "manufacturer":  "Satel"
-}
+{"id":44,"name":"Адресующий модуль Satel CA-64 ADR-MOD","image":"img/security/img_67.jpg","productDetails":[{"Name":"Потребление тока в режиме готовност","Value":"1,2 мА"}],"manufacturer":"Satel"}

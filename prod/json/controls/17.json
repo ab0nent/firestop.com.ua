@@ -1,12 +1,1 @@
-{
-    "id":  17,
-    "name":  "Считыватель проксимити карт Satel CZ-USB-1",
-    "image":  "img/controls/img_18.jpg",
-    "productDetails":  [
-                           {
-                               "Name":  "Частота",
-                               "Value":  "125 кГ"
-                           }
-                       ],
-    "manufacturer":  "Satel"
-}
+{"id":17,"name":"Считыватель проксимити карт Satel CZ-USB-1","image":"img/controls/img_18.jpg","productDetails":[{"Name":"Частота","Value":"125 кГ"}],"manufacturer":"Satel"}
