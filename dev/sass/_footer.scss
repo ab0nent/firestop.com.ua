@@ -15,10 +15,12 @@ footer div{
 
 footer div:first-child{
   float: left;
+  margin-left: 24px;
 }
 
 footer div:last-child{
   float: right;
+  margin-right: 24px;
 }
 
 @media (max-width: 600px)  {

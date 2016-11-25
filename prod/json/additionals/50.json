@@ -1,12 +1,1 @@
-{
-    "id":  50,
-    "name":  "Кронштейн Hikvision DS-1280ZJ-S",
-    "image":  "img/additionals/img_20.jpg",
-    "productDetails":  [
-                           {
-                               "Name":  "Материал",
-                               "Value":  "алюминий"
-                           }
-                       ],
-    "manufacturer":  "Hikvision"
-}
+{"id":50,"name":"Кронштейн Hikvision DS-1280ZJ-S","image":"img/additionals/img_20.jpg","productDetails":[{"Name":"Материал","Value":"алюминий"}],"manufacturer":"Hikvision"}

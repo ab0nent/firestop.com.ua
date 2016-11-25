@@ -21,18 +21,29 @@
     <header>
         <md-content ng-cloak="">
 
-            <a href="#" class="logo"><span class="logo__icon">FS</span><span class="logo__name">FIRE<span>STOP</span></span></a>
+            <a href="#" class="logo">
+                <span class="logo__icon">FS</span>
+                <span class="logo__name">
+                    FIRE
+                    <span>STOP</span>
+                </span>
+            </a>
 
-            <ul class="menu" hide-xs>
-                <li class="menu__item menu__item_active"><a href="#/main" class="menu__link">ГЛАВНАЯ</a></li>
-                <li class="menu__item"><a href="#/products" class="menu__link">ОБОРУДОВАНИЕ</a></li>
-                <li class="menu__item"><a href="#/contacts" class="menu__link">КОНТАКТЫ</a></li>
+            <ul class="menu" hide-xs ng-controller="MenuCtrl">
+                <li class="menu__item" ng-class="isActive('main')">
+                    <a href="#/main" class="menu__link">ГЛАВНАЯ</a>
+                </li>
+                <li class="menu__item" ng-class="isActive('products')">
+                    <a href="#/products" class="menu__link">ОБОРУДОВАНИЕ</a>
+                </li>
+                <li class="menu__item" ng-class="isActive('contacts')">
+                    <a href="#/contacts" class="menu__link">КОНТАКТЫ</a>
+                </li>
             </ul>
-
 
             <md-menu md-position-mode="target-right target" hide show-xs ng-controller="MobileMenuCtrl as ctrl" flex>
                 <md-button aria-label="Open menu" class="btn-mobile-menu md-icon-button" ng-click="$mdOpenMenu($event)">
-                    <md-icon md-svg-src="/img/ic_menu_black_24px.svg" aria-label="android "></md-icon>
+                    <md-icon md-svg-src="/img/ic_menu_black_24px.svg" aria-label="android"></md-icon>
                 </md-button>
                 <md-menu-content width="4" class="mobile-menu">
                     <md-menu-item ng-repeat="item in ctrl.menuItems">
@@ -81,8 +92,8 @@
 <script src="app/product-list/product-list.component.js"></script>
 <script src="app/product-detail/product-detail.module.js"></script>
 <script src="app/product-detail/product-detail.component.js"></script>
-<script src="app/mobileMenu/mobileMenu.js"></script>
-
+<script src="app/menu/mobileMenu.js"></script>
+<script src="app/menu/menu.js"></script>
 <!--Custom script-->
 <script src="js/main.min.js"></script>
 

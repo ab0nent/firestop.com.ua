@@ -1,9 +1,1 @@
-{
-    "id":  2,
-    "name":  "Брелок Satel BR-STD-1",
-    "image":  "img/controls/img_12.jpg",
-    "productDetails":  [
-
-                       ],
-    "manufacturer":  "Satel"
-}
+{"id":2,"name":"Брелок Satel BR-STD-1","image":"img/controls/img_12.jpg","productDetails":[],"manufacturer":"Satel"}

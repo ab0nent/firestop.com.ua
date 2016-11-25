@@ -1,16 +1,1 @@
-{
-    "id":  128,
-    "name":  "Терминал акустической верификации тревоги Satel INT-AVT",
-    "image":  "img/security/img_106.jpg",
-    "productDetails":  [
-                           {
-                               "Name":  "Габаритные размер",
-                               "Value":  "35 x 127 x 22 мм"
-                           },
-                           {
-                               "Name":  "Ве",
-                               "Value":  "42 г"
-                           }
-                       ],
-    "manufacturer":  "Satel"
-}
+{"id":128,"name":"Терминал акустической верификации тревоги Satel INT-AVT","image":"img/security/img_106.jpg","productDetails":[{"Name":"Габаритные размер","Value":"35 x 127 x 22 мм"},{"Name":"Ве","Value":"42 г"}],"manufacturer":"Satel"}

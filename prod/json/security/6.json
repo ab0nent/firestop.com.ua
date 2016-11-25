@@ -1,9 +1,1 @@
-{
-    "id":  6,
-    "name":  "Кабель RS-232 Satel PIN5/PIN5",
-    "image":  "img/security/img_207.jpg",
-    "productDetails":  [
-
-                       ],
-    "manufacturer":  "Satel"
-}
+{"id":6,"name":"Кабель RS-232 Satel PIN5/PIN5","image":"img/security/img_207.jpg","productDetails":[],"manufacturer":"Satel"}
