@@ -1,4 +1,4 @@
-footer{
+.footer{
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -9,22 +9,21 @@ footer{
   color: rgba(233, 233, 233, 0.75);
 }
 
-footer div{
+.footer__company, .footer__phone{
   margin: 0 5px;
 }
 
-footer div:first-child{
+.footer__company{
   float: left;
-  margin-left: 24px;
+
 }
 
-footer div:last-child{
+.footer__phone{
   float: right;
-  margin-right: 24px;
 }
 
 @media (max-width: 600px)  {
-  footer div:last-child{
+  .footer__phone{
     display: none;
   }
 }

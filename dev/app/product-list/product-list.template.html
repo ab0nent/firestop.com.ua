@@ -1,23 +1,27 @@
-<div layout="row">
+<div layout="row" class="page__product-list">
     <div class="filters">
         <md-input-container>
             <label>Поиск</label>
-            <input ng-model="search.$">
+            <input ng-model="$ctrl.customFilter.$">
+            <!--<input ng-model="search.$">-->
         </md-input-container>
         <br>
         <md-input-container>
             <label>Поиск по имени</label>
-            <input ng-model="search.name">
+            <input ng-model="$ctrl.customFilter.name">
+            <!--<input ng-model="search.name">-->
         </md-input-container>
         <br>
         <md-input-container>
             <label>Поиск по ID</label>
-            <input ng-model="search.id">
+            <input ng-model="$ctrl.customFilter.id">
+            <!--<input ng-model="search.id">-->
         </md-input-container>
         <br>
         <md-input-container>
             <label>Поиск по производителю</label>
-            <input ng-model="search.manufacturer">
+            <input ng-model="$ctrl.customFilter.manufacturer">
+            <!--<input ng-model="search.manufacturer">-->
         </md-input-container>
         <br>
 
@@ -35,7 +39,8 @@
             <label>Производители</label>
             <md-select ng-model="$ctrl.filter" multiple>
                 <md-optgroup label="Производители">
-                    <md-option ng-value="manufacturer" ng-repeat="manufacturer in $ctrl.getManufacturer()" selected="">
+                    <md-option ng-value="manufacturer" ng-repeat="manufacturer in $ctrl.getManufacturer()"
+                               ng-selected="$ctrl.manufacturerIsSelected(manufacturer)">
                         {{manufacturer}}
                     </md-option>
                 </md-optgroup>
@@ -44,7 +49,7 @@
 
         <md-input-container class="md-block">
             <label>
-                Оборудования на странице (доступно {{$ctrl.products.length}}):</label>
+                Оборудования (доступно {{$ctrl.products.length}}):</label>
             <input type="number" step="1" ng-model="$ctrl.numLimit" min="1" max="{{$ctrl.products.length}}">
         </md-input-container>
         <md-button class="btn-show-more" ng-click="$ctrl.showMore()">Показать еще 10</md-button>
@@ -52,7 +57,8 @@
 
     <md-content class="product-list">
         <md-list>
-            <md-list-item class="product-list-item md-3-line" ng-repeat="product in ($ctrl.products | filter: $ctrl.filterByManufacturer) | filter:search:strict
+            <!--<md-list-item class="product-list__item md-3-line" ng-repeat="product in ($ctrl.products | filter: $ctrl.filterByManufacturer) | filter:search:strict-->
+            <md-list-item class="product-list__item md-3-line" ng-repeat="product in ($ctrl.products | filter: $ctrl.filterByManufacturer) | filter:$ctrl.customFilter:strict
             |  orderBy:$ctrl.orderProp  | limitTo:$ctrl.numLimit" ng-click="$ctrl.goToProduct(product)">
                 <img ng-src="{{product.image}}" class="md-image-no-fill" alt="{{product.name}}"/>
                 <div class="md-list-item-text" layout="column">

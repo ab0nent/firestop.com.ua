@@ -17,7 +17,7 @@ body {
   text-decoration: none; }
 
 .content {
-  padding-bottom: 72px;
+  padding: 0 0 72px 0;
   height: 100%; }
 
 h1, h2, h4, h5, h6 {
@@ -30,16 +30,16 @@ h1, h2, h4, h5, h6 {
 .md-whiteframe-24dp {
   margin-left: 20px; }
 
-table {
+.property-list {
   border-collapse: collapse;
   width: 100%; }
 
-th, td {
+.property-list__item_name, .property-list__item_value {
   padding: 10px;
   text-align: left;
   border-bottom: 1px solid #ddd; }
 
-tr:hover {
+.property-list__item:hover {
   background-color: #f5f5f5; }
 
 .contacts {
@@ -48,14 +48,14 @@ tr:hover {
 .contacts h3, .contacts p {
   padding: 7px; }
 
-iframe {
+.google-map {
   margin-top: 10px;
   border: 0;
   background-color: #dddddd;
   width: 50%;
   height: 450px; }
 
-header {
+.header {
   z-index: 2;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   position: fixed;
@@ -63,9 +63,12 @@ header {
   left: 0;
   right: 0; }
 
+.wrapper__indent {
+  padding: 0 24px; }
+
 .logo__icon {
   display: block;
-  margin: 4px 0 4px 24px;
+  margin: 4px 0;
   float: left;
   border-radius: 50%;
   background-color: red;
@@ -98,8 +101,7 @@ header {
 
 .menu {
   float: right;
-  border: none;
-  margin-right: 24px; }
+  border: none; }
 
 .menu__item {
   display: inline-block; }
@@ -148,17 +150,15 @@ ul {
   font-size: 22px; }
 
 .product-list {
-  margin: 0 0 0 20%;
-  padding: 10px;
+  margin: 0 0 0 250px;
   width: 100%; }
 
 .filters {
-  width: 19%;
+  width: 226px;
   position: fixed;
   top: 48px;
-  left: 0;
-  z-index: 2;
-  padding-left: 1%; }
+  left: 24px;
+  z-index: 2; }
 
 .about-title {
   height: 500px;
@@ -182,7 +182,7 @@ md-input-container {
   width: 100%;
   margin-bottom: 0; }
 
-md-list-item {
+.product-list__item {
   float: left;
   width: 33.3%;
   margin-top: 3px; }
@@ -256,46 +256,60 @@ md-list-item {
 
 .payment h3, .delivery h3 {
   font-size: 25px;
-  padding: 20px 0 0 20px; }
+  padding: 20px 0; }
 
-.payment li, .delivery li {
-  padding: 20px;
+.payment-list__item, .delivery-list__item {
+  padding: 20px 0;
   font-size: 20px;
   text-align: justify; }
 
-.delivery li:last-child, .payment li:last-child {
-  padding-bottom: 20px; }
+.payment-list__item {
+  padding-right: 20px; }
+
+.page__product-list {
+  padding: 41px 24px 24px 24px; }
+
+.page__contacts, .page__product-details {
+  padding: 24px; }
+
+@media (min-width: 960px) and (max-width: 1280px) {
+  .product-list__item {
+    width: 50%; } }
 
 @media (min-width: 600px) and (max-width: 960px) {
-  md-list-item {
-    width: 50%; }
+  .product-list__item {
+    width: 100%; }
   .payment, .delivery {
     width: 100%; }
+  .payment-list__item {
+    padding-right: 0; }
   .about-title div {
     padding-top: 150px; }
   .products-link, .contacts-link {
     font-size: 35px; } }
 
 @media (max-width: 600px) {
-  md-list-item {
+  .filters {
+    width: 150px; }
+  .product-list__item {
     width: 100%; }
   .payment, .delivery {
     width: 100%; }
+  .payment-list__item {
+    padding-right: 0; }
   .contacts-list {
     width: 100%; }
-  iframe {
+  .google-map {
     width: 100%; }
-  .filters {
-    width: 40%; }
   .product-list {
-    margin: 0 0 0 40%; }
+    margin: 0 0 0 155px; }
   .about-title div {
     padding-top: 150px;
     font-size: 40px; }
   .products-link, .contacts-link {
     width: 100%; } }
 
-footer {
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -305,19 +319,17 @@ footer {
   font-size: 24px;
   color: rgba(233, 233, 233, 0.75); }
 
-footer div {
+.footer__company, .footer__phone {
   margin: 0 5px; }
 
-footer div:first-child {
-  float: left;
-  margin-left: 24px; }
+.footer__company {
+  float: left; }
 
-footer div:last-child {
-  float: right;
-  margin-right: 24px; }
+.footer__phone {
+  float: right; }
 
 @media (max-width: 600px) {
-  footer div:last-child {
+  .footer__phone {
     display: none; } }
 
 .view-container {

@@ -27,18 +27,16 @@ ul{
 }
 
 .product-list {
-  margin: 0 0 0 20%;
-  padding: 10px;
+  margin: 0 0 0 250px;
   width: 100%;
 }
 
 .filters {
-  width: 19%;
+  width: 226px;
   position: fixed;
   top: 48px;
-  left: 0;
+  left: 24px;
   z-index: 2;
-  padding-left: 1%;
 }
 
 .about-title {
@@ -66,7 +64,7 @@ md-input-container {
   margin-bottom: 0;
 }
 
-md-list-item {
+.product-list__item {
   float: left;
   width: 33.3%;
   margin-top: 3px;
@@ -156,26 +154,44 @@ md-list-item {
 
 .payment h3, .delivery h3{
   font-size: 25px;
-  padding: 20px 0 0 20px;
+  padding: 20px 0;
 }
 
-.payment li, .delivery li{
-  padding: 20px;
+.payment-list__item, .delivery-list__item{
+  padding: 20px 0;
   font-size: 20px;
   text-align: justify;
 }
 
-.delivery li:last-child, .payment li:last-child{
-  padding-bottom: 20px;
+.payment-list__item{
+  padding-right: 20px;
+}
+
+.page__product-list{
+  padding: 41px 24px 24px 24px;
+}
+
+.page__contacts, .page__product-details{
+  padding: 24px;
+}
+
+@media (min-width: 960px) and (max-width: 1280px) {
+  .product-list__item {
+    width: 50%;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 960px) {
-  md-list-item {
-    width: 50%;
+  .product-list__item {
+    width: 100%;
   }
 
   .payment, .delivery{
     width: 100%;
+  }
+
+  .payment-list__item{
+    padding-right: 0;
   }
 
   .about-title div {
@@ -189,29 +205,33 @@ md-list-item {
 }
 
 @media (max-width: 600px) {
-  md-list-item {
+
+  .filters{
+    width: 150px;
+  }
+
+  .product-list__item {
     width: 100%;
   }
 
   .payment, .delivery{
     width: 100%;
+  }
 
+  .payment-list__item{
+    padding-right: 0;
   }
 
   .contacts-list{
     width: 100%;
   }
 
-  iframe{
+  .google-map{
     width: 100%;
   }
 
-  .filters {
-    width: 40%;
-  }
-
   .product-list {
-    margin: 0 0 0 40%;
+    margin: 0 0 0 155px;
   }
 
   .about-title div {

@@ -1,15 +1,18 @@
-<h1>{{$ctrl.product.name}}</h1>
-<br>
-<img ng-src="{{$ctrl.product.image}}" alt="{{$ctrl.product.name}}" class="md-whiteframe-24dp">
-<br>
-<br>
-<h4>ID: {{$ctrl.product.id}}</h4>
-<h4>Производитель: {{$ctrl.product.manufacturer}}</h4>
-<br>
-<table>
-    <tr ng-repeat="detail in $ctrl.product.productDetails">
-        <td>{{detail.Name}}</td>
-        <td>{{detail.Value}}</td>
-    </tr>
-</table>
+<div class="page__product-details">
+    <h1>{{$ctrl.product.name}}</h1>
+    <br>
+    <img ng-src="{{$ctrl.product.image}}" alt="{{$ctrl.product.name}}" class="md-whiteframe-24dp">
+    <br>
+    <br>
+    <h4>ID: {{$ctrl.product.id}}</h4>
+    <h4>Производитель: {{$ctrl.product.manufacturer}}</h4>
+    <br>
+    <table class="property-list">
+        <tr ng-repeat="detail in $ctrl.product.productDetails" class="property-list__item">
+            <td class="property-list__item_name">{{detail.Name}}</td>
+            <td class="product-list__item_value">{{detail.Value}}</td>
+        </tr>
+    </table>
+</div>
+
 

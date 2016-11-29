@@ -18,7 +18,7 @@ body{
 }
 
 .content {
-  padding-bottom: 72px;
+  padding: 0 0 72px 0;
   height: 100%;
 }
 
@@ -35,18 +35,18 @@ h1, h2, h4, h5, h6 {
   margin-left: 20px;
 }
 
-table {
+.property-list {
   border-collapse: collapse;
   width: 100%;
 }
 
-th, td {
+.property-list__item_name, .property-list__item_value {
   padding: 10px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
 
-tr:hover {
+.property-list__item:hover {
   background-color: #f5f5f5
 }
 
@@ -58,7 +58,7 @@ tr:hover {
   padding: 7px;
 }
 
-iframe {
+.google-map {
   margin-top: 10px;
   border: 0;
   background-color: #dddddd;

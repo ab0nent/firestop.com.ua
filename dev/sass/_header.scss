@@ -1,4 +1,4 @@
-header{
+.header{
   z-index: 2;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   position: fixed;
@@ -7,9 +7,13 @@ header{
   right: 0;
 }
 
+.wrapper__indent {
+  padding: 0 24px;
+}
+
 .logo__icon{
   display: block;
-  margin: 4px 0 4px 24px;
+  margin: 4px 0;
   float: left;
   border-radius: 50%;
   background-color: red;
