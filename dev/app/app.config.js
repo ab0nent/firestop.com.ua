@@ -8,7 +8,7 @@ config(['$locationProvider', '$routeProvider',
 
         $routeProvider.
         when('/main', {
-            templateUrl: 'app/static-pages/main.template.html'
+            template: '<main-page></main-page>'
         }).
         when('/contacts', {
             templateUrl: 'app/static-pages/contacts.template.html'
