@@ -1,1 +1,20 @@
-{"id":59,"name":"Задняя панель для врезного монтажа Dahua Technology VTOB107","image":"img/additionals/img_50.jpg","productDetails":[{"Name":"Материал","Value":"металл"},{"Name":"Габариты","Value":"125х135х56мм"},{"Name":"Вес","Value":"0.8 кг"}],"manufacturer":"Dahua"}
+{
+    "id":  59,
+    "name":  "Задняя панель для врезного монтажа Dahua Technology VTOB107",
+    "image":  "img/additionals/img_50.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Материал",
+                               "Value":  "металл"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "125х135х56мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "0.8 кг"
+                           }
+                       ],
+    "manufacturer":  "Dahua"
+}

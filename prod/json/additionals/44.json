@@ -1,1 +1,9 @@
-{"id":44,"name":"Dahua Technology DH-KBDB","image":"img/additionals/img_42.jpg","productDetails":[],"manufacturer":"Dahua"}
+{
+    "id":  44,
+    "name":  "Dahua Technology DH-KBDB",
+    "image":  "img/additionals/img_42.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Dahua"
+}

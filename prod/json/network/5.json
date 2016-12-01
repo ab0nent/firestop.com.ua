@@ -1,1 +1,40 @@
-{"id":5,"name":"PoE свитч для IP домофонов Dahua Technology VTNS1060A","image":"img/network/img_22.jpg","productDetails":[{"Name":"Ти","Value":"PoE свитч"},{"Name":"Количество PoE порто","Value":"6"},{"Name":"SFP пор","Value":"Нет"},{"Name":"Uplink пор","Value":"Нет"},{"Name":"Общая потребляемая мощност","Value":"0.2Вт (без нагрузки), 45Вт (полная нагрузка)"},{"Name":"Габарит","Value":"179х107х30 мм"},{"Name":"Ве","Value":"300г"},{"Name":"Рабочая температур","Value":"-10°С - +55°С"}],"manufacturer":"Dahua"}
+{
+    "id":  5,
+    "name":  "PoE свитч для IP домофонов Dahua Technology VTNS1060A",
+    "image":  "img/network/img_22.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Ти",
+                               "Value":  "PoE свитч"
+                           },
+                           {
+                               "Name":  "Количество PoE порто",
+                               "Value":  "6"
+                           },
+                           {
+                               "Name":  "SFP пор",
+                               "Value":  "Нет"
+                           },
+                           {
+                               "Name":  "Uplink пор",
+                               "Value":  "Нет"
+                           },
+                           {
+                               "Name":  "Общая потребляемая мощност",
+                               "Value":  "0.2Вт (без нагрузки), 45Вт (полная нагрузка)"
+                           },
+                           {
+                               "Name":  "Габарит",
+                               "Value":  "179х107х30 мм"
+                           },
+                           {
+                               "Name":  "Ве",
+                               "Value":  "300г"
+                           },
+                           {
+                               "Name":  "Рабочая температур",
+                               "Value":  "-10°С - +55°С"
+                           }
+                       ],
+    "manufacturer":  "Dahua"
+}

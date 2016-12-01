@@ -1,1 +1,28 @@
-{"id":248,"name":"Конвертер GPRS/SMS Satel GPRS-T1","image":"img/security/img_91.jpg","productDetails":[{"Name":"Напряжение питания (±15%","Value":"12 В DC"},{"Name":"Максимальное потребление ток","Value":"220 мА"},{"Name":"Потребление тока в режиме готовност","Value":"50 мА"},{"Name":"Габаритные размеры платы электроник","Value":"80 x 57 мм"},{"Name":"Ве","Value":"184 г"}],"manufacturer":"Satel"}
+{
+    "id":  248,
+    "name":  "Конвертер GPRS/SMS Satel GPRS-T1",
+    "image":  "img/security/img_91.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Напряжение питания (±15%",
+                               "Value":  "12 В DC"
+                           },
+                           {
+                               "Name":  "Максимальное потребление ток",
+                               "Value":  "220 мА"
+                           },
+                           {
+                               "Name":  "Потребление тока в режиме готовност",
+                               "Value":  "50 мА"
+                           },
+                           {
+                               "Name":  "Габаритные размеры платы электроник",
+                               "Value":  "80 x 57 мм"
+                           },
+                           {
+                               "Name":  "Ве",
+                               "Value":  "184 г"
+                           }
+                       ],
+    "manufacturer":  "Satel"
+}

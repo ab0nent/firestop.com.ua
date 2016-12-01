@@ -1,1 +1,9 @@
-{"id":62,"name":"Кабель Satel PIN5/RJ-TTL","image":"img/security/img_208.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  62,
+    "name":  "Кабель Satel PIN5/RJ-TTL",
+    "image":  "img/security/img_208.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

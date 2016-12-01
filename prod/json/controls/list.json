@@ -1,1 +1,200 @@
-[{"id":0,"name":"Проксимити карта Satel KT-STD-2","image":"img/controls/img_26.jpg","manufacturer":"Satel"},{"id":1,"name":"Проксимити карта Satel KT-STD-1","image":"img/controls/img_25.jpg","manufacturer":"Satel"},{"id":2,"name":"Брелок Satel BR-STD-1","image":"img/controls/img_12.jpg","manufacturer":"Satel"},{"id":3,"name":"Брелок Satel BR-STD-2","image":"img/controls/img_13.jpg","manufacturer":"Satel"},{"id":4,"name":"GeoVision GV-ASKeypad","image":"img/controls/img_22.jpg","manufacturer":"GeoVision"},{"id":5,"name":"Считыватель проксимити карт Satel CZ-EMM","image":"img/controls/img_14.jpg","manufacturer":"Satel"},{"id":6,"name":"Считыватель проксимити карт Satel CZ-EMM2","image":"img/controls/img_15.jpg","manufacturer":"Satel"},{"id":7,"name":"RFID считыватель Dahua DH-ASR1000B","image":"img/controls/img_1.jpg","manufacturer":"Dahua"},{"id":8,"name":"RFID считыватель Dahua DH-ASR1000A","image":"img/controls/img_11.jpg","manufacturer":"Dahua"},{"id":9,"name":"RFID считыватель Dahua DH-ASR1101A","image":"img/controls/img_24.jpg","manufacturer":"Dahua"},{"id":10,"name":"GeoVision GV-Reader 1352","image":"img/controls/img_28.jpg","manufacturer":"GeoVision"},{"id":11,"name":"Считыватель проксимити карт Satel CZ-EMM-D с длинным кабелем","image":"img/controls/img_14.jpg","manufacturer":"Satel"},{"id":12,"name":"RFID считыватель Hikvision DS-K1102M","image":"img/controls/img_21.jpg","manufacturer":"Hikvision"},{"id":13,"name":"GeoVision GV-AS120","image":"img/controls/img_29.jpg","manufacturer":"GeoVision"},{"id":14,"name":"GeoVision GV-CR420","image":"img/controls/img_30.jpg","manufacturer":"GeoVision"},{"id":15,"name":"Считыватель проксимити карт Satel CZ-EMM3","image":"img/controls/img_16.jpg","manufacturer":"Satel"},{"id":16,"name":"Считыватель проксимити карт Satel CZ-EMM4","image":"img/controls/img_17.jpg","manufacturer":"Satel"},{"id":17,"name":"Считыватель проксимити карт Satel CZ-USB-1","image":"img/controls/img_18.jpg","manufacturer":"Satel"},{"id":18,"name":"Считыватель проксимити карт Satel ACCO-USB-CZ","image":"img/controls/img_8.jpg","manufacturer":"Satel"},{"id":19,"name":"RFID считыватель Hikvision DS-K1102MK","image":"img/controls/img_20.jpg","manufacturer":"Hikvision"},{"id":20,"name":"RFID считыватель Hikvision DS-K1104M","image":"img/controls/img_19.jpg","manufacturer":"Hikvision"},{"id":21,"name":"GeoVision GV-ASNet","image":"img/controls/img_23.jpg","manufacturer":"GeoVision"},{"id":22,"name":"Клавиатура Satel ACCO-SCR-BG","image":"img/controls/img_7.jpg","manufacturer":"Satel"},{"id":23,"name":"Автономный модуль контроля доступа Satel PK-01","image":"img/controls/img_27.jpg","manufacturer":"Satel"},{"id":24,"name":"Автономный Host Dahua DH-ASI1201A","image":"img/controls/img_9.jpg","manufacturer":"Dahua"},{"id":25,"name":"RFID считыватель Dahua DH-ASR1102A","image":"img/controls/img_4.jpg","manufacturer":"Dahua"},{"id":26,"name":"RFID считыватель Hikvision DS-K1104MK","image":"img/controls/img_3.jpg","manufacturer":"Hikvision"},{"id":27,"name":"Контроллер для 4-дверей Dahua DH-ASI1204B","image":"img/controls/img_2.jpg","manufacturer":"Dahua"},{"id":28,"name":"Модуль контроля доступа Satel ACCO-KPWG","image":"img/controls/img_5.jpg","manufacturer":"Satel"},{"id":29,"name":"Модуль контроля доступа Satel ACCO-KPWG-PS","image":"img/controls/img_6.jpg","manufacturer":"Satel"},{"id":30,"name":"Автономный Host Dahua DH-ASI1212A","image":"img/controls/img_10.jpg","manufacturer":"Dahua"},{"id":31,"name":"Контроллер для 2-дверей Hikvision DS-K2602","image":"img/controls/img_0.jpg","manufacturer":"Hikvision"},{"id":32,"name":"Контроллер для 4-дверей Hikvision DS-K2604","image":"img/controls/img_0.jpg","manufacturer":"Hikvision"}]
+[
+    {
+        "id":  0,
+        "name":  "Проксимити карта Satel KT-STD-2",
+        "image":  "img/controls/img_26.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  1,
+        "name":  "Проксимити карта Satel KT-STD-1",
+        "image":  "img/controls/img_25.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  2,
+        "name":  "Брелок Satel BR-STD-1",
+        "image":  "img/controls/img_12.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  3,
+        "name":  "Брелок Satel BR-STD-2",
+        "image":  "img/controls/img_13.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  4,
+        "name":  "GeoVision GV-ASKeypad",
+        "image":  "img/controls/img_22.jpg",
+        "manufacturer":  "GeoVision"
+    },
+    {
+        "id":  5,
+        "name":  "Считыватель проксимити карт Satel CZ-EMM",
+        "image":  "img/controls/img_14.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  6,
+        "name":  "Считыватель проксимити карт Satel CZ-EMM2",
+        "image":  "img/controls/img_15.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  7,
+        "name":  "RFID считыватель Dahua DH-ASR1000B",
+        "image":  "img/controls/img_1.jpg",
+        "manufacturer":  "Dahua"
+    },
+    {
+        "id":  8,
+        "name":  "RFID считыватель Dahua DH-ASR1000A",
+        "image":  "img/controls/img_11.jpg",
+        "manufacturer":  "Dahua"
+    },
+    {
+        "id":  9,
+        "name":  "RFID считыватель Dahua DH-ASR1101A",
+        "image":  "img/controls/img_24.jpg",
+        "manufacturer":  "Dahua"
+    },
+    {
+        "id":  10,
+        "name":  "GeoVision GV-Reader 1352",
+        "image":  "img/controls/img_28.jpg",
+        "manufacturer":  "GeoVision"
+    },
+    {
+        "id":  11,
+        "name":  "Считыватель проксимити карт Satel CZ-EMM-D с длинным кабелем",
+        "image":  "img/controls/img_14.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  12,
+        "name":  "RFID считыватель Hikvision DS-K1102M",
+        "image":  "img/controls/img_21.jpg",
+        "manufacturer":  "Hikvision"
+    },
+    {
+        "id":  13,
+        "name":  "GeoVision GV-AS120",
+        "image":  "img/controls/img_29.jpg",
+        "manufacturer":  "GeoVision"
+    },
+    {
+        "id":  14,
+        "name":  "GeoVision GV-CR420",
+        "image":  "img/controls/img_30.jpg",
+        "manufacturer":  "GeoVision"
+    },
+    {
+        "id":  15,
+        "name":  "Считыватель проксимити карт Satel CZ-EMM3",
+        "image":  "img/controls/img_16.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  16,
+        "name":  "Считыватель проксимити карт Satel CZ-EMM4",
+        "image":  "img/controls/img_17.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  17,
+        "name":  "Считыватель проксимити карт Satel CZ-USB-1",
+        "image":  "img/controls/img_18.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  18,
+        "name":  "Считыватель проксимити карт Satel ACCO-USB-CZ",
+        "image":  "img/controls/img_8.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  19,
+        "name":  "RFID считыватель Hikvision DS-K1102MK",
+        "image":  "img/controls/img_20.jpg",
+        "manufacturer":  "Hikvision"
+    },
+    {
+        "id":  20,
+        "name":  "RFID считыватель Hikvision DS-K1104M",
+        "image":  "img/controls/img_19.jpg",
+        "manufacturer":  "Hikvision"
+    },
+    {
+        "id":  21,
+        "name":  "GeoVision GV-ASNet",
+        "image":  "img/controls/img_23.jpg",
+        "manufacturer":  "GeoVision"
+    },
+    {
+        "id":  22,
+        "name":  "Клавиатура Satel ACCO-SCR-BG",
+        "image":  "img/controls/img_7.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  23,
+        "name":  "Автономный модуль контроля доступа Satel PK-01",
+        "image":  "img/controls/img_27.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  24,
+        "name":  "Автономный Host Dahua DH-ASI1201A",
+        "image":  "img/controls/img_9.jpg",
+        "manufacturer":  "Dahua"
+    },
+    {
+        "id":  25,
+        "name":  "RFID считыватель Dahua DH-ASR1102A",
+        "image":  "img/controls/img_4.jpg",
+        "manufacturer":  "Dahua"
+    },
+    {
+        "id":  26,
+        "name":  "RFID считыватель Hikvision DS-K1104MK",
+        "image":  "img/controls/img_3.jpg",
+        "manufacturer":  "Hikvision"
+    },
+    {
+        "id":  27,
+        "name":  "Контроллер для 4-дверей Dahua DH-ASI1204B",
+        "image":  "img/controls/img_2.jpg",
+        "manufacturer":  "Dahua"
+    },
+    {
+        "id":  28,
+        "name":  "Модуль контроля доступа Satel ACCO-KPWG",
+        "image":  "img/controls/img_5.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  29,
+        "name":  "Модуль контроля доступа Satel ACCO-KPWG-PS",
+        "image":  "img/controls/img_6.jpg",
+        "manufacturer":  "Satel"
+    },
+    {
+        "id":  30,
+        "name":  "Автономный Host Dahua DH-ASI1212A",
+        "image":  "img/controls/img_10.jpg",
+        "manufacturer":  "Dahua"
+    },
+    {
+        "id":  31,
+        "name":  "Контроллер для 2-дверей Hikvision DS-K2602",
+        "image":  "img/controls/img_0.jpg",
+        "manufacturer":  "Hikvision"
+    },
+    {
+        "id":  32,
+        "name":  "Контроллер для 4-дверей Hikvision DS-K2604",
+        "image":  "img/controls/img_0.jpg",
+        "manufacturer":  "Hikvision"
+    }
+]

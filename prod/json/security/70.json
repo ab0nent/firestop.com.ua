@@ -1,1 +1,9 @@
-{"id":70,"name":"Корпус Satel OBU-M-LCD","image":"img/security/img_194.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  70,
+    "name":  "Корпус Satel OBU-M-LCD",
+    "image":  "img/security/img_194.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

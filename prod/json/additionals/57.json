@@ -1,1 +1,20 @@
-{"id":57,"name":"Монтажная коробка Dahua Technology PFA134","image":"img/additionals/img_11.jpg","productDetails":[{"Name":"Материал","Value":"алюминий"},{"Name":"Габариты","Value":"d90x35 мм"},{"Name":"Вес","Value":"0.22 кг"}],"manufacturer":"Dahua"}
+{
+    "id":  57,
+    "name":  "Монтажная коробка Dahua Technology PFA134",
+    "image":  "img/additionals/img_11.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Материал",
+                               "Value":  "алюминий"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "d90x35 мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "0.22 кг"
+                           }
+                       ],
+    "manufacturer":  "Dahua"
+}

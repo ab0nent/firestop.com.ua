@@ -1,1 +1,32 @@
-{"id":5,"name":"Считыватель проксимити карт Satel CZ-EMM","image":"img/controls/img_14.jpg","productDetails":[{"Name":"Тип карт","Value":"EM Marin(125 кГц)"},{"Name":"Частота","Value":"125 кГц"},{"Name":"Питание","Value":"12 В DC"},{"Name":"Рабочая температура","Value":"-20…+55 °"},{"Name":"Влажность","Value":"\u003c95%"},{"Name":"Габариты","Value":"80 x 120 x 16 мм"}],"manufacturer":"Satel"}
+{
+    "id":  5,
+    "name":  "Считыватель проксимити карт Satel CZ-EMM",
+    "image":  "img/controls/img_14.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Тип карт",
+                               "Value":  "EM Marin(125 кГц)"
+                           },
+                           {
+                               "Name":  "Частота",
+                               "Value":  "125 кГц"
+                           },
+                           {
+                               "Name":  "Питание",
+                               "Value":  "12 В DC"
+                           },
+                           {
+                               "Name":  "Рабочая температура",
+                               "Value":  "-20…+55 °"
+                           },
+                           {
+                               "Name":  "Влажность",
+                               "Value":  "\u003c95%"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "80 x 120 x 16 мм"
+                           }
+                       ],
+    "manufacturer":  "Satel"
+}

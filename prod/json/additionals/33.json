@@ -1,1 +1,9 @@
-{"id":33,"name":"Комплект TurboHD видеонаблюдения Hikvision DS-J142I/7104HGHI-SH","image":"img/additionals/img_27.jpg","productDetails":[],"manufacturer":"Hikvision"}
+{
+    "id":  33,
+    "name":  "Комплект TurboHD видеонаблюдения Hikvision DS-J142I/7104HGHI-SH",
+    "image":  "img/additionals/img_27.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Hikvision"
+}

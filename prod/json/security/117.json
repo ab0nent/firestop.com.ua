@@ -1,1 +1,9 @@
-{"id":117,"name":"Конвертер Satel USB-RS","image":"img/security/img_246.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  117,
+    "name":  "Конвертер Satel USB-RS",
+    "image":  "img/security/img_246.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

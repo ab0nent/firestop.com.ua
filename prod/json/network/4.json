@@ -1,1 +1,56 @@
-{"id":4,"name":"High PoE Midspan инжектор PFT1200","image":"img/network/img_3.jpg","productDetails":[{"Name":"Ти","Value":"PoE инжектор"},{"Name":"Общее количество порто","Value":"2"},{"Name":"Количество PoE порто","Value":"1"},{"Name":"SFP пор","Value":"Нет"},{"Name":"Uplink пор","Value":"Нет"},{"Name":"Стандарт питания Po","Value":"802.3af/at"},{"Name":"Общая мощность Po","Value":"60Вт"},{"Name":"Светодиодная индикаци","Value":"Сеть, PoE"},{"Name":"Расстояние питания Po","Value":"300 м"},{"Name":"Габарит","Value":"150х70х39 мм"},{"Name":"Ве","Value":"390г"},{"Name":"Рабочая температур","Value":"-30ºС ~ 65ºС"}],"manufacturer":"Midspan"}
+{
+    "id":  4,
+    "name":  "High PoE Midspan инжектор PFT1200",
+    "image":  "img/network/img_3.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Ти",
+                               "Value":  "PoE инжектор"
+                           },
+                           {
+                               "Name":  "Общее количество порто",
+                               "Value":  "2"
+                           },
+                           {
+                               "Name":  "Количество PoE порто",
+                               "Value":  "1"
+                           },
+                           {
+                               "Name":  "SFP пор",
+                               "Value":  "Нет"
+                           },
+                           {
+                               "Name":  "Uplink пор",
+                               "Value":  "Нет"
+                           },
+                           {
+                               "Name":  "Стандарт питания Po",
+                               "Value":  "802.3af/at"
+                           },
+                           {
+                               "Name":  "Общая мощность Po",
+                               "Value":  "60Вт"
+                           },
+                           {
+                               "Name":  "Светодиодная индикаци",
+                               "Value":  "Сеть, PoE"
+                           },
+                           {
+                               "Name":  "Расстояние питания Po",
+                               "Value":  "300 м"
+                           },
+                           {
+                               "Name":  "Габарит",
+                               "Value":  "150х70х39 мм"
+                           },
+                           {
+                               "Name":  "Ве",
+                               "Value":  "390г"
+                           },
+                           {
+                               "Name":  "Рабочая температур",
+                               "Value":  "-30ºС ~ 65ºС"
+                           }
+                       ],
+    "manufacturer":  "Midspan"
+}

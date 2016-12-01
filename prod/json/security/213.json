@@ -1,1 +1,9 @@
-{"id":213,"name":"Корпус Satel OMI-4","image":"img/security/img_198.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  213,
+    "name":  "Корпус Satel OMI-4",
+    "image":  "img/security/img_198.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

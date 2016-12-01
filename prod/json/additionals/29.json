@@ -1,1 +1,28 @@
-{"id":29,"name":"Коммутационная панель TWIST-16 Patch Panel","image":"img/additionals/img_48.jpg","productDetails":[{"Name":"Тип","Value":"коммутационное устройство"},{"Name":"Количество каналов","Value":"16"},{"Name":"Подключение","Value":"1хDB25F"},{"Name":"Рабочая температура","Value":"от 0 до плюс 45°С"},{"Name":"Габариты","Value":"482х44х93"}],"manufacturer":"unknown"}
+{
+    "id":  29,
+    "name":  "Коммутационная панель TWIST-16 Patch Panel",
+    "image":  "img/additionals/img_48.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Тип",
+                               "Value":  "коммутационное устройство"
+                           },
+                           {
+                               "Name":  "Количество каналов",
+                               "Value":  "16"
+                           },
+                           {
+                               "Name":  "Подключение",
+                               "Value":  "1хDB25F"
+                           },
+                           {
+                               "Name":  "Рабочая температура",
+                               "Value":  "от 0 до плюс 45°С"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "482х44х93"
+                           }
+                       ],
+    "manufacturer":  "unknown"
+}

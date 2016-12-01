@@ -1,1 +1,9 @@
-{"id":116,"name":"Корпус Satel BOX-2","image":"img/security/img_6.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  116,
+    "name":  "Корпус Satel BOX-2",
+    "image":  "img/security/img_6.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

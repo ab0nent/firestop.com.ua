@@ -1,1 +1,9 @@
-{"id":65,"name":"Корпус Satel BOX-3 без TR","image":"img/security/img_7.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  65,
+    "name":  "Корпус Satel BOX-3 без TR",
+    "image":  "img/security/img_7.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

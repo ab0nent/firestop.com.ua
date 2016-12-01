@@ -1,1 +1,108 @@
-{"id":41,"name":"GeoVision GV-IP Decoder Box","image":"img/dvrs/img_76.jpg","productDetails":[{"Name":null,"Value":"Видео"},{"Name":null,"Value":"Кодек"},{"Name":null,"Value":"Видеовыход на 60 Hz"},{"Name":null,"Value":"480p"},{"Name":null,"Value":"720p"},{"Name":null,"Value":"1080i"},{"Name":null,"Value":"1080p"},{"Name":null,"Value":"Сеть"},{"Name":null,"Value":"Интерфейс"},{"Name":null,"Value":"Протокол"},{"Name":null,"Value":"Механика"},{"Name":null,"Value":"ИК пульт управления"},{"Name":null,"Value":"Соединения"},{"Name":null,"Value":"Ethernet"},{"Name":null,"Value":"Вывод на монитор"},{"Name":null,"Value":"Местное хранилище и прошивка"},{"Name":null,"Value":"обновление"},{"Name":null,"Value":"Общее"},{"Name":null,"Value":"Рабочая температура"},{"Name":null,"Value":"Влажность"},{"Name":null,"Value":"Размеры (Ш x В x Д)"},{"Name":null,"Value":"Вес"},{"Name":null,"Value":"Питание"},{"Name":null,"Value":"Энергопотребление"},{"Name":null,"Value":"ртификаты"}],"manufacturer":"GeoVision"}
+{
+    "id":  41,
+    "name":  "GeoVision GV-IP Decoder Box",
+    "image":  "img/dvrs/img_76.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  null,
+                               "Value":  "Видео"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Кодек"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Видеовыход на 60 Hz"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "480p"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "720p"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "1080i"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "1080p"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Сеть"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Интерфейс"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Протокол"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Механика"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "ИК пульт управления"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Соединения"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Ethernet"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Вывод на монитор"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Местное хранилище и прошивка"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "обновление"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Общее"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Рабочая температура"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Влажность"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Размеры (Ш x В x Д)"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Вес"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Питание"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Энергопотребление"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "ртификаты"
+                           }
+                       ],
+    "manufacturer":  "GeoVision"
+}

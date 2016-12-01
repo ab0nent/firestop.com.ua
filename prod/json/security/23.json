@@ -1,1 +1,9 @@
-{"id":23,"name":"Антенна Satel ANT-OBU","image":"img/security/img_26.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  23,
+    "name":  "Антенна Satel ANT-OBU",
+    "image":  "img/security/img_26.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

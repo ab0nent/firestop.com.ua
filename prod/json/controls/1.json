@@ -1,1 +1,9 @@
-{"id":1,"name":"Проксимити карта Satel KT-STD-1","image":"img/controls/img_25.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  1,
+    "name":  "Проксимити карта Satel KT-STD-1",
+    "image":  "img/controls/img_25.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

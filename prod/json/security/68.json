@@ -1,1 +1,9 @@
-{"id":68,"name":"Корпус Satel OBU-M-LED-S","image":"img/security/img_197.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  68,
+    "name":  "Корпус Satel OBU-M-LED-S",
+    "image":  "img/security/img_197.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

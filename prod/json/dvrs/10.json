@@ -1,1 +1,112 @@
-{"id":10,"name":"Hikvision DS-7104HQHI-F1/N","image":"img/dvrs/img_28.jpg","productDetails":[{"Name":"Количество каналов","Value":"4 канала"},{"Name":"Поддержка типов камер","Value":"Аналог, AHD и HD-TVI"},{"Name":"Видеовходы (аналог, HD-TVI)","Value":"BNC (1.0 Vp-p, 75Ω)"},{"Name":"Формат сжатия видео","Value":"H.264,H.264+"},{"Name":"HDMI и VGA выход","Value":"1920 × 1080 / 60 Hz,1280 × 1024 / 60 Hz, 1280 × 720 / 60 Hz, 1024 × 768 / 60 Hz"},{"Name":"Скорость записи","Value":"1080р: 16 кадров/с"},{"Name":"Битрейд видео","Value":"32 Kbps-6 Mbps"},{"Name":"Аудиовыход","Value":"1-канал RCA (2.0 Vp-p, 1 kΩ)"},{"Name":"Аудиовходы","Value":"1-канал RCA (2.0 Vp-p, 1 kΩ)"},{"Name":"Аудиокодек","Value":"G.711u"},{"Name":"Битрейд аудио","Value":"64 Kbps"},{"Name":"Ethernet интерфейс","Value":"1xRJ-45"},{"Name":"Протокол Ethernet","Value":"TCP/IP, PPPoE, DHCP, DNS, DDNS, NTP, SADP, SMTP, SNMP, NFS, iSCSI, UPnP™, HTTPS"},{"Name":"Макс. кол-во. одновременных подключений","Value":"128"},{"Name":"Синхронизированное воспроизведение","Value":"4 канала"},{"Name":"Тревожные выходы","Value":"Нет"},{"Name":"Тревожные входы","Value":"Нет"},{"Name":"RS-485","Value":"1 для PTZ-управления:"},{"Name":"HDD","Value":"1xSATA до 6 Тб"},{"Name":"USB-интерфейсы","Value":"2 x USB2.0"},{"Name":"Источник питания","Value":"12V DC"},{"Name":"Потребляемая мощность","Value":"≤ 8W"},{"Name":"Рабочая температура","Value":"-10 ºC ~+55 ºC"},{"Name":"Влажность","Value":"10% ~ 90%"},{"Name":"Габариты","Value":"200x200x45 мм"},{"Name":"Вес","Value":"\u003c 0,8 Кг (без HDD)"}],"manufacturer":"Hikvision"}
+{
+    "id":  10,
+    "name":  "Hikvision DS-7104HQHI-F1/N",
+    "image":  "img/dvrs/img_28.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Количество каналов",
+                               "Value":  "4 канала"
+                           },
+                           {
+                               "Name":  "Поддержка типов камер",
+                               "Value":  "Аналог, AHD и HD-TVI"
+                           },
+                           {
+                               "Name":  "Видеовходы (аналог, HD-TVI)",
+                               "Value":  "BNC (1.0 Vp-p, 75Ω)"
+                           },
+                           {
+                               "Name":  "Формат сжатия видео",
+                               "Value":  "H.264,H.264+"
+                           },
+                           {
+                               "Name":  "HDMI и VGA выход",
+                               "Value":  "1920 × 1080 / 60 Hz,1280 × 1024 / 60 Hz, 1280 × 720 / 60 Hz, 1024 × 768 / 60 Hz"
+                           },
+                           {
+                               "Name":  "Скорость записи",
+                               "Value":  "1080р: 16 кадров/с"
+                           },
+                           {
+                               "Name":  "Битрейд видео",
+                               "Value":  "32 Kbps-6 Mbps"
+                           },
+                           {
+                               "Name":  "Аудиовыход",
+                               "Value":  "1-канал RCA (2.0 Vp-p, 1 kΩ)"
+                           },
+                           {
+                               "Name":  "Аудиовходы",
+                               "Value":  "1-канал RCA (2.0 Vp-p, 1 kΩ)"
+                           },
+                           {
+                               "Name":  "Аудиокодек",
+                               "Value":  "G.711u"
+                           },
+                           {
+                               "Name":  "Битрейд аудио",
+                               "Value":  "64 Kbps"
+                           },
+                           {
+                               "Name":  "Ethernet интерфейс",
+                               "Value":  "1xRJ-45"
+                           },
+                           {
+                               "Name":  "Протокол Ethernet",
+                               "Value":  "TCP/IP, PPPoE, DHCP, DNS, DDNS, NTP, SADP, SMTP, SNMP, NFS, iSCSI, UPnP™, HTTPS"
+                           },
+                           {
+                               "Name":  "Макс. кол-во. одновременных подключений",
+                               "Value":  "128"
+                           },
+                           {
+                               "Name":  "Синхронизированное воспроизведение",
+                               "Value":  "4 канала"
+                           },
+                           {
+                               "Name":  "Тревожные выходы",
+                               "Value":  "Нет"
+                           },
+                           {
+                               "Name":  "Тревожные входы",
+                               "Value":  "Нет"
+                           },
+                           {
+                               "Name":  "RS-485",
+                               "Value":  "1 для PTZ-управления:"
+                           },
+                           {
+                               "Name":  "HDD",
+                               "Value":  "1xSATA до 6 Тб"
+                           },
+                           {
+                               "Name":  "USB-интерфейсы",
+                               "Value":  "2 x USB2.0"
+                           },
+                           {
+                               "Name":  "Источник питания",
+                               "Value":  "12V DC"
+                           },
+                           {
+                               "Name":  "Потребляемая мощность",
+                               "Value":  "≤ 8W"
+                           },
+                           {
+                               "Name":  "Рабочая температура",
+                               "Value":  "-10 ºC ~+55 ºC"
+                           },
+                           {
+                               "Name":  "Влажность",
+                               "Value":  "10% ~ 90%"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "200x200x45 мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "\u003c 0,8 Кг (без HDD)"
+                           }
+                       ],
+    "manufacturer":  "Hikvision"
+}

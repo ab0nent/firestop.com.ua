@@ -1,1 +1,9 @@
-{"id":7,"name":"VidiTech BNC","image":"img/cabels/img_6.jpg","productDetails":[],"manufacturer":"VidiTech"}
+{
+    "id":  7,
+    "name":  "VidiTech BNC",
+    "image":  "img/cabels/img_6.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "VidiTech"
+}

@@ -1,1 +1,20 @@
-{"id":8,"name":"Кронштейн Dahua Technology PFB203W","image":"img/additionals/img_17.jpg","productDetails":[{"Name":"Материал","Value":"алюминий"},{"Name":"Габариты","Value":"160x122x76 мм"},{"Name":"Вес","Value":"0.5 кг"}],"manufacturer":"Dahua"}
+{
+    "id":  8,
+    "name":  "Кронштейн Dahua Technology PFB203W",
+    "image":  "img/additionals/img_17.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Материал",
+                               "Value":  "алюминий"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "160x122x76 мм"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "0.5 кг"
+                           }
+                       ],
+    "manufacturer":  "Dahua"
+}

@@ -1,1 +1,9 @@
-{"id":302,"name":"Плата расширения Satel STAM-1 K","image":"img/security/img_235.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  302,
+    "name":  "Плата расширения Satel STAM-1 K",
+    "image":  "img/security/img_235.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}

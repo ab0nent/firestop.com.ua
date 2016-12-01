@@ -1,1 +1,9 @@
-{"id":32,"name":"KINGWAVE KW-KIT25R","image":"img/additionals/img_2.jpg","productDetails":[],"manufacturer":"Kingwave"}
+{
+    "id":  32,
+    "name":  "KINGWAVE KW-KIT25R",
+    "image":  "img/additionals/img_2.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Kingwave"
+}

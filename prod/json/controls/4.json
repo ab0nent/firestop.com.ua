@@ -1,1 +1,9 @@
-{"id":4,"name":"GeoVision GV-ASKeypad","image":"img/controls/img_22.jpg","productDetails":[],"manufacturer":"GeoVision"}
+{
+    "id":  4,
+    "name":  "GeoVision GV-ASKeypad",
+    "image":  "img/controls/img_22.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "GeoVision"
+}

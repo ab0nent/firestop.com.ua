@@ -1,1 +1,348 @@
-{"id":24,"name":"Dahua Technology NVR3104P","image":"img/dvrs/img_24.jpg","productDetails":[{"Name":null,"Value":"Технические характеристики"},{"Name":null,"Value":"Общая информация"},{"Name":null,"Value":"Производитель"},{"Name":null,"Value":"Модель"},{"Name":null,"Value":"Класс"},{"Name":null,"Value":"Страна производитель"},{"Name":null,"Value":"Система"},{"Name":null,"Value":"Операционная систем"},{"Name":null,"Value":"Языковая поддержка"},{"Name":null,"Value":"Управление"},{"Name":null,"Value":"Жесткий диск HDD"},{"Name":null,"Value":"Резервное копирование"},{"Name":null,"Value":"Мониторинг состояния"},{"Name":null,"Value":"Возможности системы"},{"Name":null,"Value":"Видео"},{"Name":null,"Value":"Входы"},{"Name":null,"Value":"Стандарт"},{"Name":null,"Value":"Выходы"},{"Name":null,"Value":"Сквозные выходы"},{"Name":null,"Value":"Кодек"},{"Name":null,"Value":"Аудио"},{"Name":null,"Value":"Входы"},{"Name":null,"Value":"Выходы"},{"Name":null,"Value":"Кодек"},{"Name":null,"Value":"Двусторонняя аудиосвязь"},{"Name":null,"Value":"Отображение"},{"Name":null,"Value":"Разделение экрана"},{"Name":null,"Value":"Тревожный монитор"},{"Name":null,"Value":"Разрешение VGA"},{"Name":null,"Value":"OSD"},{"Name":null,"Value":"Запись"},{"Name":null,"Value":"Разрешение записи"},{"Name":null,"Value":"Второй поток видео"},{"Name":null,"Value":"Расписание записи"},{"Name":null,"Value":"Функции записи"},{"Name":null,"Value":"Предзапись"},{"Name":null,"Value":"Послезапись"},{"Name":null,"Value":"Качество"},{"Name":null,"Value":"Битрейд"},{"Name":null,"Value":"Детекция движения и входы/выходы"},{"Name":null,"Value":"Детекция движения"},{"Name":null,"Value":"Тревожные входы"},{"Name":null,"Value":"Релейные выходы"},{"Name":null,"Value":"RS485"},{"Name":null,"Value":"SATA"},{"Name":null,"Value":"RS232"},{"Name":null,"Value":"Сеть"},{"Name":null,"Value":"Сетевой подключение"},{"Name":null,"Value":"Сетевые функции"},{"Name":null,"Value":"Удаленные возможности"},{"Name":null,"Value":"WEB-интерфейс"},{"Name":null,"Value":"Клиентское ПО"},{"Name":null,"Value":"Архивация и просмотр"},{"Name":null,"Value":"Одновременный просмотр"},{"Name":null,"Value":"Поиск записей"},{"Name":null,"Value":"Ускорение"},{"Name":null,"Value":"Функции просмотра"},{"Name":null,"Value":"Архивация"},{"Name":null,"Value":"Размер архива"},{"Name":null,"Value":"Цифровой зум"},{"Name":null,"Value":"Технические данные"},{"Name":null,"Value":"Питание"},{"Name":null,"Value":"Потребляемая мощность"},{"Name":null,"Value":"Оптимальные условия"},{"Name":null,"Value":"Размеры (ШхГхВ)"},{"Name":null,"Value":"Вес"},{"Name":null,"Value":"Комплект поставки"},{"Name":null,"Value":"Гарантия"},{"Name":null,"Value":"Dahua NVR 3104 P, Dahua NVR-3104-P, Dahua NVR3104P, DH-NVR3104P, Dahua DH-NVR3104P"},{"Name":"Видеовходы","Value":"4"},{"Name":"Разрешение записи (макс.)","Value":"1080P (1920×1080)"},{"Name":"VGA","Value":"да"},{"Name":"HDMI","Value":"да"},{"Name":"Скорость записи FullHD/канал","Value":"30 кад/сек"},{"Name":"Матричный выход","Value":"нет"},{"Name":"Транзитные выходы","Value":"нет"},{"Name":"Тревожные входы","Value":"нет"},{"Name":"Релейные выходы","Value":"нет"},{"Name":"Жесткий диск (шт)","Value":"1"},{"Name":"USB-интерфейс (шт)","Value":"2"},{"Name":"Интерфейс RS232","Value":"да"},{"Name":"Интерфейс RS485","Value":"нет"},{"Name":"Потребляемая мощность","Value":"10 Вт (без жесткого диска)"},{"Name":"Габариты","Value":"275×205×45"},{"Name":"Вес","Value":"0,5 кг (без HDD)"}],"manufacturer":"Dahua"}
+{
+    "id":  24,
+    "name":  "Dahua Technology NVR3104P",
+    "image":  "img/dvrs/img_24.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  null,
+                               "Value":  "Технические характеристики"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Общая информация"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Производитель"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Модель"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Класс"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Страна производитель"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Система"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Операционная систем"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Языковая поддержка"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Управление"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Жесткий диск HDD"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Резервное копирование"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Мониторинг состояния"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Возможности системы"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Видео"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Входы"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Стандарт"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Выходы"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Сквозные выходы"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Кодек"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Аудио"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Входы"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Выходы"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Кодек"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Двусторонняя аудиосвязь"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Отображение"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Разделение экрана"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Тревожный монитор"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Разрешение VGA"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "OSD"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Запись"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Разрешение записи"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Второй поток видео"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Расписание записи"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Функции записи"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Предзапись"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Послезапись"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Качество"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Битрейд"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Детекция движения и входы/выходы"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Детекция движения"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Тревожные входы"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Релейные выходы"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "RS485"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "SATA"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "RS232"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Сеть"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Сетевой подключение"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Сетевые функции"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Удаленные возможности"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "WEB-интерфейс"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Клиентское ПО"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Архивация и просмотр"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Одновременный просмотр"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Поиск записей"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Ускорение"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Функции просмотра"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Архивация"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Размер архива"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Цифровой зум"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Технические данные"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Питание"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Потребляемая мощность"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Оптимальные условия"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Размеры (ШхГхВ)"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Вес"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Комплект поставки"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Гарантия"
+                           },
+                           {
+                               "Name":  null,
+                               "Value":  "Dahua NVR 3104 P, Dahua NVR-3104-P, Dahua NVR3104P, DH-NVR3104P, Dahua DH-NVR3104P"
+                           },
+                           {
+                               "Name":  "Видеовходы",
+                               "Value":  "4"
+                           },
+                           {
+                               "Name":  "Разрешение записи (макс.)",
+                               "Value":  "1080P (1920×1080)"
+                           },
+                           {
+                               "Name":  "VGA",
+                               "Value":  "да"
+                           },
+                           {
+                               "Name":  "HDMI",
+                               "Value":  "да"
+                           },
+                           {
+                               "Name":  "Скорость записи FullHD/канал",
+                               "Value":  "30 кад/сек"
+                           },
+                           {
+                               "Name":  "Матричный выход",
+                               "Value":  "нет"
+                           },
+                           {
+                               "Name":  "Транзитные выходы",
+                               "Value":  "нет"
+                           },
+                           {
+                               "Name":  "Тревожные входы",
+                               "Value":  "нет"
+                           },
+                           {
+                               "Name":  "Релейные выходы",
+                               "Value":  "нет"
+                           },
+                           {
+                               "Name":  "Жесткий диск (шт)",
+                               "Value":  "1"
+                           },
+                           {
+                               "Name":  "USB-интерфейс (шт)",
+                               "Value":  "2"
+                           },
+                           {
+                               "Name":  "Интерфейс RS232",
+                               "Value":  "да"
+                           },
+                           {
+                               "Name":  "Интерфейс RS485",
+                               "Value":  "нет"
+                           },
+                           {
+                               "Name":  "Потребляемая мощность",
+                               "Value":  "10 Вт (без жесткого диска)"
+                           },
+                           {
+                               "Name":  "Габариты",
+                               "Value":  "275×205×45"
+                           },
+                           {
+                               "Name":  "Вес",
+                               "Value":  "0,5 кг (без HDD)"
+                           }
+                       ],
+    "manufacturer":  "Dahua"
+}

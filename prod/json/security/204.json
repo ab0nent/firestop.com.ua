@@ -1,1 +1,16 @@
-{"id":204,"name":"Тестер извещателей разбития стекла Satel INDIGO","image":"img/security/img_5.jpg","productDetails":[{"Name":"Батаре","Value":"9 В 6LR6"},{"Name":"Ве","Value":"110 г"}],"manufacturer":"Satel"}
+{
+    "id":  204,
+    "name":  "Тестер извещателей разбития стекла Satel INDIGO",
+    "image":  "img/security/img_5.jpg",
+    "productDetails":  [
+                           {
+                               "Name":  "Батаре",
+                               "Value":  "9 В 6LR6"
+                           },
+                           {
+                               "Name":  "Ве",
+                               "Value":  "110 г"
+                           }
+                       ],
+    "manufacturer":  "Satel"
+}

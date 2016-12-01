@@ -1,1 +1,9 @@
-{"id":86,"name":"Корпус Satel STAM-BOX","image":"img/security/img_239.jpg","productDetails":[],"manufacturer":"Satel"}
+{
+    "id":  86,
+    "name":  "Корпус Satel STAM-BOX",
+    "image":  "img/security/img_239.jpg",
+    "productDetails":  [
+
+                       ],
+    "manufacturer":  "Satel"
+}
